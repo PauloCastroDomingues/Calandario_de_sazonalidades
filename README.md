@@ -224,6 +224,7 @@ Arquivos importantes para deploy:
 - `pyproject.toml`: aponta o Vercel para o FastAPI em `backend.app:app`.
 - `requirements.txt`: dependencias instaladas no build do Vercel.
 - `.gitignore`: bloqueia credenciais, `.env`, caches Python e estado local da Vercel/Codex.
+- `.vercelignore`: bloqueia credenciais, caches e arquivos gerados em deploys pela Vercel CLI.
 - `VERSION` e `CHANGELOG.md`: registram a versao publicada.
 
 Configuracao recomendada no Vercel:

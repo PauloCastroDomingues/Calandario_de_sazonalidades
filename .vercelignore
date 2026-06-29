@@ -1,0 +1,13 @@
+.git
+.vercel
+.env
+.env.*
+credentials
+.agents
+.codex
+__pycache__
+*.py[cod]
+data/consolidado.json
+tmp
+temp
+*.log
