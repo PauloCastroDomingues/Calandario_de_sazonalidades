@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:28:09.328Z",
+  "generated_at": "2026-06-30T16:31:27.175Z",
   "mode": "apps_script_bigquery_d1",
   "project_id": "reise-ssot",
   "start_date": "2024-05-30",
@@ -9,7 +9,7 @@
   "files": {
     "kpis_dia.json": {
       "rows": 761,
-      "bytes_processed": 76448,
+      "bytes_processed": 0,
       "location": "US",
       "updated": true
     },
