@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.1 - 2026-06-30
+
+- Reposicionado o projeto como central de prontidao comercial sazonal, evitando sobreposicao com frentes de BI, midia e funil.
+- Adicionado playbook de prontidao sazonal ao endpoint `/api/analytics`, com status, score, lacuna de receita, checklist por area e bloqueios principais.
+- Incluido bloco `Prontidao sazonal` no dashboard para destacar acoes antes das proximas datas comerciais.
+- Removido o workflow D-1 via GitHub Actions do fluxo ativo; Apps Script passa a ser o caminho oficial sem custo para atualizar dados D-1 no GitHub.
+- Atualizada a documentacao para deixar Python como alternativa local/tecnica, nao como automacao diaria principal.
+
 ## 0.4.0 - 2026-06-30
 
 - Adicionada camada backend de inteligencia comercial com corte D-1.
@@ -7,7 +15,7 @@
 - Incluido bloco `Previsao e proximos movimentos` no dashboard para antecipar faturamento e acoes antes das datas comerciais.
 - Criado exportador `scripts/exportar_bigquery_d1.py` para gerar snapshots diarios dos JSONs a partir do BigQuery com `dry-run` e limite de bytes.
 - Adicionado bridge `apps_script/bigquery_bridge` para atualizar snapshots D-1 pelo Apps Script usando a conta Google autorizada no BigQuery e commitando os JSONs no GitHub.
-- Criado workflow `.github/workflows/atualizar-dados-d1.yml` para automatizar a atualizacao diaria D-1 via GitHub Actions, com pre-checagem para pular sem erro enquanto o BigQuery nao estiver configurado.
+- Preparada alternativa tecnica de automacao via exportador Python, mantida fora do fluxo operacional principal.
 - Mantido o modelo sem custo adicional: frontend consome cache JSON/API e nao consulta BigQuery diretamente.
 
 ## 0.3.1 - 2026-06-29

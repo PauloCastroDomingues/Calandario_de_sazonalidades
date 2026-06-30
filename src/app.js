@@ -947,6 +947,10 @@ function renderExecutiveIntelligence() {
   document.getElementById("analyticsSignalsList").innerHTML = renderSignalItems(analytics.signals || []);
   document.getElementById("upcomingEventsList").innerHTML = renderUpcomingEventItems(analytics.upcoming_events || []);
   document.getElementById("recommendationsList").innerHTML = renderRecommendationItems(analytics.recommendations || []);
+  const readinessList = document.getElementById("readinessPlaybookList");
+  if (readinessList) {
+    readinessList.innerHTML = renderReadinessPlaybookItems(analytics.readiness_playbook || []);
+  }
 }
 
 function renderSignalItems(signals = []) {
@@ -989,6 +993,60 @@ function renderRecommendationItems(recommendations = []) {
   }
   return recommendations
     .map((recommendation) => `<li><span>${escapeHtml(recommendation)}</span></li>`)
+    .join("");
+}
+
+function renderReadinessPlaybookItems(items = []) {
+  if (!items.length) {
+    return `
+      <article class="readiness-card readiness-monitorar">
+        <div class="readiness-card-head">
+          <span>Sem data critica</span>
+          <strong>Monitorar</strong>
+        </div>
+        <h4>Nenhuma frente sazonal ativa</h4>
+        <p>Nao ha data comercial relevante nos proximos 90 dias.</p>
+      </article>
+    `;
+  }
+
+  return items
+    .map((item) => {
+      const checklist = (item.checklist || [])
+        .slice(0, 4)
+        .map(
+          (task) => `
+            <li>
+              <span>${escapeHtml(task.area || "-")}</span>
+              <strong class="task-${slug(task.status || "status")}">${escapeHtml(task.status || "-")}</strong>
+              <small>${escapeHtml(task.owner || "-")}</small>
+            </li>
+          `
+        )
+        .join("");
+      const blockers = (item.blockers || [])
+        .slice(0, 3)
+        .map((blocker) => `<span>${escapeHtml(blocker)}</span>`)
+        .join("");
+
+      return `
+        <article class="readiness-card readiness-${slug(item.status || "monitorar")}">
+          <div class="readiness-card-head">
+            <span>${escapeHtml(item.status || "monitorar")}</span>
+            <strong>${formatInteger(item.score || 0)}% pronto</strong>
+          </div>
+          <h4>${escapeHtml(item.name || "-")}</h4>
+          <p>${formatShortDate(item.date)} Â· faltam ${formatInteger(item.days_until)} dia(s)</p>
+          <div class="readiness-metrics">
+            <span>Lacuna: <strong>${formatCurrency(item.revenue_gap || 0)}</strong></span>
+            <span>Ritmo diario: <strong>${formatCurrency(item.daily_required || 0)}</strong></span>
+          </div>
+          <ul class="readiness-checklist">${checklist}</ul>
+          ${blockers ? `<div class="readiness-blockers">${blockers}</div>` : ""}
+          <footer>${escapeHtml(item.main_action || "")}</footer>
+        </article>
+      `;
+    })
     .join("");
 }
 

@@ -64,6 +64,7 @@ def build_analytics(payload: dict[str, Any], today: date | None = None) -> dict[
     upcoming_events = build_upcoming_events(calendario, eventos_manuais, cutoff)
     stock_signals = build_stock_signals(last_30_products, estoque)
     campaign_signals = build_campaign_signals(last_14_campaigns)
+    readiness_playbook = build_readiness_playbook(upcoming_events, forecast, stock_signals, campaign_signals)
     signals = build_signals(trends, forecast, upcoming_events, stock_signals, campaign_signals)
     recommendations = build_recommendations(forecast, upcoming_events, stock_signals, campaign_signals)
 
@@ -79,6 +80,7 @@ def build_analytics(payload: dict[str, Any], today: date | None = None) -> dict[
         "trends": trends,
         "signals": signals[:6],
         "upcoming_events": upcoming_events[:6],
+        "readiness_playbook": readiness_playbook[:4],
         "recommendations": recommendations[:6],
         "diagnostic": build_diagnostic(forecast, trends, upcoming_events),
     }
@@ -93,6 +95,7 @@ def empty_analytics() -> dict[str, Any]:
         "trends": {},
         "signals": [],
         "upcoming_events": [],
+        "readiness_playbook": [],
         "recommendations": [],
         "diagnostic": "Sem dados suficientes para gerar previsao.",
     }
@@ -318,6 +321,120 @@ def build_campaign_signals(campaigns: list[dict[str, Any]]) -> list[dict[str, An
             }
         )
     return sorted(signals, key=lambda item: (-item["investment"], item["roas"]))[:4]
+
+
+def build_readiness_playbook(
+    upcoming_events: list[dict[str, Any]],
+    forecast: dict[str, Any],
+    stock_signals: list[dict[str, Any]],
+    campaign_signals: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for event in upcoming_events[:6]:
+        days_until = int(number(event.get("days_until")))
+        priority = int(number(event.get("priority")) or 50)
+        risk_level = str(forecast.get("risk_level") or "indefinido")
+        revenue_gap = max(number(forecast.get("suggested_target")) - number(forecast.get("forecast_revenue")), 0)
+
+        score = 100
+        if days_until <= 7:
+            score -= 28
+        elif days_until <= 21:
+            score -= 16
+        elif days_until <= 45:
+            score -= 8
+
+        if risk_level == "alto":
+            score -= 24
+        elif risk_level == "medio":
+            score -= 12
+
+        if stock_signals:
+            score -= min(24, 8 * len(stock_signals))
+        if campaign_signals:
+            score -= min(18, 6 * len(campaign_signals))
+        if priority >= 90:
+            score -= 5
+
+        score = max(0, min(100, score))
+        blockers = build_readiness_blockers(risk_level, stock_signals, campaign_signals, days_until)
+        rows.append(
+            {
+                "name": event.get("name") or "Data sazonal",
+                "date": event.get("date"),
+                "type": event.get("type") or "Calendario",
+                "days_until": days_until,
+                "priority": priority,
+                "score": score,
+                "status": readiness_status(score),
+                "risk_level": risk_level,
+                "revenue_gap": round(revenue_gap, 2),
+                "daily_required": forecast.get("daily_required", 0),
+                "main_action": event.get("action") or recommended_event_action(days_until, priority),
+                "blockers": blockers[:4],
+                "checklist": build_readiness_checklist(risk_level, stock_signals, campaign_signals, days_until),
+            }
+        )
+
+    return sorted(rows, key=lambda item: (item["score"], item["days_until"], -item["priority"]))
+
+
+def build_readiness_blockers(
+    risk_level: str,
+    stock_signals: list[dict[str, Any]],
+    campaign_signals: list[dict[str, Any]],
+    days_until: int,
+) -> list[str]:
+    blockers: list[str] = []
+    if risk_level in {"alto", "medio"}:
+        blockers.append("Lacuna de receita contra a referencia do mes")
+    if stock_signals:
+        blockers.append(f"Estoque em risco: {stock_signals[0]['name']}")
+    if campaign_signals:
+        blockers.append(f"Midia com eficiencia baixa: {campaign_signals[0]['name']}")
+    if days_until <= 7:
+        blockers.append("Janela curta para ajustar oferta, criativo e CRM")
+    return blockers
+
+
+def build_readiness_checklist(
+    risk_level: str,
+    stock_signals: list[dict[str, Any]],
+    campaign_signals: list[dict[str, Any]],
+    days_until: int,
+) -> list[dict[str, str]]:
+    return [
+        {
+            "area": "Meta e oferta",
+            "owner": "Comercial",
+            "status": "revisar" if risk_level in {"alto", "medio"} else "ok",
+        },
+        {
+            "area": "Estoque",
+            "owner": "Operacao",
+            "status": "revisar" if stock_signals else "ok",
+        },
+        {
+            "area": "Midia e CRM",
+            "owner": "Growth",
+            "status": "revisar" if campaign_signals or days_until <= 21 else "planejar",
+        },
+        {
+            "area": "Criativos e calendario",
+            "owner": "Marketing",
+            "status": "acao imediata" if days_until <= 7 else "planejar",
+        },
+    ]
+
+
+def readiness_status(score: int) -> str:
+    if score < 55:
+        return "critico"
+    if score < 75:
+        return "atencao"
+    if score < 90:
+        return "em preparo"
+    return "monitorar"
 
 
 def build_signals(

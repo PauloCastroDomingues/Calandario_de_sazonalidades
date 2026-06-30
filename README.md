@@ -1,6 +1,16 @@
 # Calendário Comercial Reise
 
-Dashboard do Calendário Comercial Reise em modelo frontend + backend. A versão atual preserva o visual aprovado e usa uma API Python central com dados mockados/JSON como fonte temporária. A credencial BigQuery fica preparada apenas no backend para a próxima etapa.
+Dashboard do Calendário Comercial Reise em modelo frontend + backend. A versão atual opera como central de prontidão comercial sazonal: lê snapshots D-1, projeta fechamento, identifica riscos antes das próximas datas comerciais e apoia decisões de campanha, estoque e calendário.
+
+## Escopo do produto
+
+Este projeto não deve substituir as frentes analíticas de BI, mídia, funil ou financeiro. O diferencial dele é responder:
+
+```text
+Diante das próximas datas comerciais, estamos preparados para capturar a oportunidade?
+```
+
+Por isso, métricas de receita, campanha, UTM, produto e funil entram como evidências de apoio. O centro da leitura é a antecipação: previsão, lacuna contra referência, risco, prontidão sazonal, ações e responsáveis.
 
 ## Como abrir
 
@@ -32,7 +42,7 @@ O frontend não precisa de credencial BigQuery. Ele consome apenas a API do back
 
 - `GET /api/status`: última atualização, próxima atualização, status de refresh e fontes.
 - `GET /api/calendar-data`: JSON consolidado usado pelo dashboard.
-- `GET /api/analytics`: previsão de fechamento, risco, sinais executivos, próximas datas e recomendações.
+- `GET /api/analytics`: previsão de fechamento, risco, sinais executivos, próximas datas, playbook de prontidão sazonal e recomendações.
 - `POST /api/refresh`: força atualização imediata.
 - `GET /api/events`: lista eventos manuais ativos.
 - `POST /api/events`: cria evento manual compartilhado.
@@ -64,12 +74,13 @@ O objetivo é transformar o calendário em um braço analítico e preditivo:
 - risco de fechamento versus referência sugerida;
 - sinais executivos de receita, conversão, mídia, estoque e calendário;
 - próximas datas sazonais com contagem regressiva;
+- playbook de prontidão sazonal por data;
 - movimentos sugeridos antes de campanhas e datas comerciais.
 
-O fluxo recomendado sem custo adicional é:
+O fluxo oficial sem custo adicional é:
 
 ```text
-BigQuery -> exportador diário D-1 -> data/*.json -> backend analytics -> dashboard
+Apps Script -> BigQuery D-1 -> data/*.json no GitHub -> Vercel -> dashboard
 ```
 
 O frontend não consulta BigQuery. A consulta pesada deve acontecer apenas no processo diário de atualização, com filtros de data, limite de bytes e cache JSON versionável.
@@ -100,7 +111,7 @@ Use `testarDadosD1` para estimar bytes sem publicar e `atualizarDadosD1` para at
 
 ### Exportador Python
 
-O exportador Python continua disponível como alternativa local ou via GitHub Actions.
+O exportador Python continua disponível como alternativa técnica local, útil para testes, backfills e manutenção. O fluxo operacional diário do MVP é o Apps Script.
 
 Exportador BigQuery D-1:
 
@@ -118,46 +129,6 @@ BQ_MAX_BYTES_BILLED=1073741824
 ```
 
 O `--dry-run` estima bytes processados sem alterar os JSONs. A execução real grava os arquivos em `data/` e atualiza `data/manifest.json`.
-
-### Automação diária no GitHub
-
-O workflow `.github/workflows/atualizar-dados-d1.yml` roda todos os dias às `10:00 UTC` (`07:00 BRT`) e também pode ser executado manualmente pelo botão `Run workflow` no GitHub.
-
-Enquanto `BQ_PROJECT_ID` e `BQ_SERVICE_ACCOUNT_JSON` não estiverem configurados, o workflow faz apenas uma checagem inicial, registra que o BigQuery ainda não está pronto e encerra sem falhar. A exportação real só começa depois que esses secrets existirem.
-
-Configure estes secrets no repositório:
-
-```text
-BQ_PROJECT_ID
-BQ_SERVICE_ACCOUNT_JSON
-```
-
-Opcionalmente, configure esta variável do repositório:
-
-```text
-BQ_MAX_BYTES_BILLED=1073741824
-```
-
-Fluxo automático quando o BigQuery estiver configurado:
-
-```text
-GitHub Actions agenda D-1
--> cria a credencial temporária em credentials/
--> roda dry-run com limite de bytes
--> exporta data/*.json
--> valida JSONs gerados
--> commita somente se houver mudança
--> Vercel publica o novo snapshot
-```
-
-A service account deve ter apenas permissões de leitura:
-
-```text
-BigQuery Job User
-BigQuery Data Viewer nos datasets usados pelas queries
-```
-
-Nunca salve o JSON da service account no repositório. Use apenas `BQ_SERVICE_ACCOUNT_JSON` como GitHub Secret.
 
 ## Navegação do calendário
 
