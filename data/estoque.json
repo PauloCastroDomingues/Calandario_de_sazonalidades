@@ -1,66 +1,8322 @@
 [
   {
-    "sku": "SKU-BOTA-CHELSEA",
-    "product_name": "Bota Chelsea Reise",
-    "stock_available": 347,
-    "sales_last_30d": 193,
-    "coverage_days": 53.9,
-    "risk_status": "Saudável"
+    "sku": "RS8-C-40",
+    "product_name": "RS8-C-40",
+    "stock_available": 44,
+    "sales_last_30d": 21,
+    "coverage_days": 62.85714285714286,
+    "risk_status": "Saudavel"
   },
   {
-    "sku": "SKU-MOCASSIM-LISBON",
-    "product_name": "Mocassim Lisbon",
-    "stock_available": 278,
+    "sku": "PHTKNIT-C-45",
+    "product_name": "PHTKNIT-C-45",
+    "stock_available": 5,
+    "sales_last_30d": 1,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-OW-45",
+    "product_name": "URUS-OW-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-P-43",
+    "product_name": "RS7AVANT-P-43",
+    "stock_available": 14,
+    "sales_last_30d": 4,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-B-38",
+    "product_name": "URUS-B-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-C-39",
+    "product_name": "URUS-C-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "OFC009M088",
+    "product_name": "OFC009M088",
+    "stock_available": 20,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036268",
+    "product_name": "7890001036268",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-M-38",
+    "product_name": "MACAN-M-38",
+    "stock_available": 5,
+    "sales_last_30d": 7,
+    "coverage_days": 21.428571428571427,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-TM-44",
+    "product_name": "RS6AVANT-TM-44",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-MR-45",
+    "product_name": "URUS-MR-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-NOW-43",
+    "product_name": "911GT-NOW-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS3-P-45",
+    "product_name": "RS3-P-45",
+    "stock_available": 8,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-B-40",
+    "product_name": "911-B-40",
+    "stock_available": 34,
+    "sales_last_30d": 11,
+    "coverage_days": 92.72727272727273,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-C-40",
+    "product_name": "RS7-C-40",
+    "stock_available": 92,
+    "sales_last_30d": 35,
+    "coverage_days": 78.85714285714285,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036084",
+    "product_name": "7890001036084",
+    "stock_available": 7,
+    "sales_last_30d": 4,
+    "coverage_days": 52.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-AB-43",
+    "product_name": "TN-RSX-AB-43",
+    "stock_available": 11,
+    "sales_last_30d": 6,
+    "coverage_days": 55,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-M-40",
+    "product_name": "RS6GT-M-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036299",
+    "product_name": "7890001036299",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-P-45",
+    "product_name": "KNIT-P-45",
+    "stock_available": 11,
+    "sales_last_30d": 6,
+    "coverage_days": 55,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-M-41",
+    "product_name": "PHTEASY-M-41",
+    "stock_available": 33,
+    "sales_last_30d": 15,
+    "coverage_days": 66,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001035940",
+    "product_name": "7890001035940",
+    "stock_available": 6,
+    "sales_last_30d": 6,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6-P-39",
+    "product_name": "RS6-P-39",
+    "stock_available": 7,
+    "sales_last_30d": 23,
+    "coverage_days": 9.130434782608695,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "TN-RSX-AB-44",
+    "product_name": "TN-RSX-AB-44",
+    "stock_available": 9,
+    "sales_last_30d": 2,
+    "coverage_days": 135,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-NOW-41",
+    "product_name": "911GT-NOW-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-P-44",
+    "product_name": "KNITGT-P-44",
+    "stock_available": 6,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-OW-39",
+    "product_name": "911CR-OW-39",
+    "stock_available": 7,
+    "sales_last_30d": 6,
+    "coverage_days": 35,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7890001013832",
+    "product_name": "7890001013832",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-AB-44",
+    "product_name": "RS6AVANT-AB-44",
+    "stock_available": 10,
+    "sales_last_30d": 5,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCHNYCMARROM",
+    "product_name": "MCHNYCMARROM",
+    "stock_available": 63,
+    "sales_last_30d": 74,
+    "coverage_days": 25.54054054054054,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS8AVANT-C-38",
+    "product_name": "RS8AVANT-C-38",
+    "stock_available": 20,
+    "sales_last_30d": 38,
+    "coverage_days": 15.789473684210527,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6GT-OW-38",
+    "product_name": "RS6GT-OW-38",
+    "stock_available": 12,
+    "sales_last_30d": 9,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6-P-44",
+    "product_name": "RS6-P-44",
+    "stock_available": 7,
+    "sales_last_30d": 9,
+    "coverage_days": 23.333333333333336,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "TN-RSX-AB-45",
+    "product_name": "TN-RSX-AB-45",
+    "stock_available": 5,
+    "sales_last_30d": 2,
+    "coverage_days": 75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-P-40",
+    "product_name": "KNITGT-P-40",
+    "stock_available": 22,
+    "sales_last_30d": 6,
+    "coverage_days": 110,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-AW-43",
+    "product_name": "TN-RSX-AW-43",
+    "stock_available": 15,
+    "sales_last_30d": 7,
+    "coverage_days": 64.28571428571428,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795450997",
+    "product_name": "7909795450997",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-M-45",
+    "product_name": "RS7AVANT-M-45",
+    "stock_available": 2,
+    "sales_last_30d": 1,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-P-40",
+    "product_name": "RS3-P-40",
+    "stock_available": 30,
+    "sales_last_30d": 8,
+    "coverage_days": 112.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451277",
+    "product_name": "7909795451277",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-CT-43",
+    "product_name": "RS8AVANT-CT-43",
+    "stock_available": 8,
+    "sales_last_30d": 1,
+    "coverage_days": 240,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "2045",
+    "product_name": "2045",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "NSM013M088",
+    "product_name": "NSM013M088",
+    "stock_available": 20,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-M-43",
+    "product_name": "RS6GT-M-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "M081",
+    "product_name": "M081",
+    "stock_available": 14,
+    "sales_last_30d": 1,
+    "coverage_days": 420,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-C-38",
+    "product_name": "PHTKNIT-C-38",
+    "stock_available": 4,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-M-42",
+    "product_name": "PHTEASY-M-42",
+    "stock_available": 10,
+    "sales_last_30d": 13,
+    "coverage_days": 23.076923076923077,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-CF-43",
+    "product_name": "RS8AVANT-CF-43",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001015102",
+    "product_name": "7890001015102",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-P-44",
+    "product_name": "RS8-P-44",
+    "stock_available": 8,
+    "sales_last_30d": 4,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-B-38",
+    "product_name": "RS6-B-38",
+    "stock_available": 4,
+    "sales_last_30d": 19,
+    "coverage_days": 6.315789473684211,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7-AB-41",
+    "product_name": "RS7-AB-41",
+    "stock_available": 46,
+    "sales_last_30d": 19,
+    "coverage_days": 72.63157894736842,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-OW-43",
+    "product_name": "RS6-OW-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036138",
+    "product_name": "7890001036138",
+    "stock_available": 35,
+    "sales_last_30d": 2,
+    "coverage_days": 525,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-AB-45",
+    "product_name": "911CR-AB-45",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "TN-RSX-MAR-39",
+    "product_name": "TN-RSX-MAR-39",
+    "stock_available": 10,
+    "sales_last_30d": 8,
+    "coverage_days": 37.5,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "MACAN-B-40",
+    "product_name": "MACAN-B-40",
+    "stock_available": 16,
+    "sales_last_30d": 4,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-B-44",
+    "product_name": "RS6GT-B-44",
+    "stock_available": 12,
+    "sales_last_30d": 2,
+    "coverage_days": 180,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCH097M056",
+    "product_name": "MCH097M056",
+    "stock_available": 1,
+    "sales_last_30d": 13,
+    "coverage_days": 2.3076923076923075,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911CR-C-44",
+    "product_name": "911CR-C-44",
+    "stock_available": 2,
+    "sales_last_30d": 2,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7890001036411",
+    "product_name": "7890001036411",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-CF-40",
+    "product_name": "RS8AVANT-CF-40",
+    "stock_available": 9,
+    "sales_last_30d": 4,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-P-40",
+    "product_name": "911-P-40",
+    "stock_available": 33,
+    "sales_last_30d": 15,
+    "coverage_days": 66,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-M-41",
+    "product_name": "911-M-41",
+    "stock_available": 32,
+    "sales_last_30d": 15,
+    "coverage_days": 64,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-AB-41",
+    "product_name": "RS6AVANT-AB-41",
+    "stock_available": 32,
+    "sales_last_30d": 49,
+    "coverage_days": 19.591836734693878,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "CARRERA-AW-44",
+    "product_name": "CARRERA-AW-44",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-C-45",
+    "product_name": "RS8AVANT-C-45",
+    "stock_available": 12,
+    "sales_last_30d": 10,
+    "coverage_days": 36,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6AVANT-OW-43",
+    "product_name": "RS6AVANT-OW-43",
+    "stock_available": 18,
+    "sales_last_30d": 11,
+    "coverage_days": 49.09090909090909,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451468",
+    "product_name": "7909795451468",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MCH097M057",
+    "product_name": "MCH097M057",
+    "stock_available": 8,
+    "sales_last_30d": 9,
+    "coverage_days": 26.666666666666668,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PNOTE004",
+    "product_name": "PNOTE004",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-P-40",
+    "product_name": "RS6AVANT-P-40",
+    "stock_available": 12,
+    "sales_last_30d": 27,
+    "coverage_days": 13.333333333333332,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "7890001013429",
+    "product_name": "7890001013429",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "L911GT-P-44",
+    "product_name": "L911GT-P-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-OW-45",
+    "product_name": "RS6GT-OW-45",
+    "stock_available": 4,
+    "sales_last_30d": 7,
+    "coverage_days": 17.142857142857142,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7AVANT-M-41",
+    "product_name": "RS7AVANT-M-41",
+    "stock_available": 26,
+    "sales_last_30d": 6,
+    "coverage_days": 130,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-V-41",
+    "product_name": "KNITGT-V-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-P-38",
+    "product_name": "RS7-P-38",
+    "stock_available": 21,
+    "sales_last_30d": 4,
+    "coverage_days": 157.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-OW-39",
+    "product_name": "PHTKNIT-OW-39",
+    "stock_available": 13,
+    "sales_last_30d": 3,
+    "coverage_days": 130,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AB-40",
+    "product_name": "RS7-AB-40",
+    "stock_available": 49,
+    "sales_last_30d": 28,
+    "coverage_days": 52.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-MC-44",
+    "product_name": "RS8AVANT-MC-44",
+    "stock_available": 10,
+    "sales_last_30d": 3,
+    "coverage_days": 100,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-B-41",
+    "product_name": "RS6GT-B-41",
+    "stock_available": 61,
+    "sales_last_30d": 28,
+    "coverage_days": 65.35714285714286,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-P-44",
+    "product_name": "PHTSLIP-P-44",
+    "stock_available": 9,
+    "sales_last_30d": 4,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-M-40",
+    "product_name": "RS6AVANT-M-40",
+    "stock_available": 61,
+    "sales_last_30d": 16,
+    "coverage_days": 114.375,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-C-42",
+    "product_name": "URUS-C-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-M-39",
+    "product_name": "RS6GT-M-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-M-37",
+    "product_name": "PHTSLIP-M-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-MR-39",
+    "product_name": "PHTKNIT-MR-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-CT-40",
+    "product_name": "RS8AVANT-CT-40",
+    "stock_available": 9,
+    "sales_last_30d": 6,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-P-44",
+    "product_name": "RS7-P-44",
+    "stock_available": 14,
+    "sales_last_30d": 5,
+    "coverage_days": 84,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-M-42",
+    "product_name": "PHTSLIP-M-42",
+    "stock_available": 17,
+    "sales_last_30d": 10,
+    "coverage_days": 51,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-P-42",
+    "product_name": "RS7-P-42",
+    "stock_available": 53,
+    "sales_last_30d": 19,
+    "coverage_days": 83.6842105263158,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-C-42",
+    "product_name": "RS8-C-42",
+    "stock_available": 64,
+    "sales_last_30d": 24,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001035933",
+    "product_name": "7890001035933",
+    "stock_available": 24,
+    "sales_last_30d": 5,
+    "coverage_days": 144,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-MC-40",
+    "product_name": "RS8AVANT-MC-40",
+    "stock_available": 18,
+    "sales_last_30d": 12,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-AB-44",
+    "product_name": "RS6-AB-44",
+    "stock_available": 18,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451239",
+    "product_name": "7909795451239",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-PTO-41",
+    "product_name": "TN-RSX-PTO-41",
+    "stock_available": 36,
+    "sales_last_30d": 9,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-C-45",
+    "product_name": "KNITGT-C-45",
+    "stock_available": 2,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-MR-42",
+    "product_name": "RS8-MR-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-AB-38",
+    "product_name": "RS6-AB-38",
+    "stock_available": 4,
+    "sales_last_30d": 7,
+    "coverage_days": 17.142857142857142,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "URUS-P-39",
+    "product_name": "URUS-P-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-PTO-40",
+    "product_name": "TN-RSX-PTO-40",
+    "stock_available": 16,
+    "sales_last_30d": 14,
+    "coverage_days": 34.285714285714285,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911-M-39",
+    "product_name": "911-M-39",
+    "stock_available": 37,
+    "sales_last_30d": 5,
+    "coverage_days": 222,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-OW-40",
+    "product_name": "911CR-OW-40",
+    "stock_available": 4,
+    "sales_last_30d": 11,
+    "coverage_days": 10.90909090909091,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "Mochila-Anti-F",
+    "product_name": "Mochila-Anti-F",
+    "stock_available": 10,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-M-42",
+    "product_name": "CARRERA-M-42",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-M-38",
+    "product_name": "911-M-38",
+    "stock_available": 14,
+    "sales_last_30d": 2,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-P-41",
+    "product_name": "RS8-P-41",
+    "stock_available": 27,
+    "sales_last_30d": 13,
+    "coverage_days": 62.30769230769231,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-C-44",
+    "product_name": "CARRERA-C-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-C-38",
+    "product_name": "CARRERA-C-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-AB-43",
+    "product_name": "911GT-AB-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-P-41",
+    "product_name": "KNIT-P-41",
+    "stock_available": 105,
+    "sales_last_30d": 26,
+    "coverage_days": 121.15384615384615,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-AW-43",
+    "product_name": "CARRERA-AW-43",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036244",
+    "product_name": "7890001036244",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KIT-EXECUTIVO",
+    "product_name": "KIT-EXECUTIVO",
+    "stock_available": 30,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-OW-41",
+    "product_name": "RS6-OW-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MCH100M058",
+    "product_name": "MCH100M058",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7897258",
+    "product_name": "7897258",
+    "stock_available": 1,
+    "sales_last_30d": 1,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911CR-P-45",
+    "product_name": "911CR-P-45",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-M-44",
+    "product_name": "RS6AVANT-M-44",
+    "stock_available": 16,
+    "sales_last_30d": 7,
+    "coverage_days": 68.57142857142857,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-V-39",
+    "product_name": "KNITGT-V-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-AB-44",
+    "product_name": "911CR-AB-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036190",
+    "product_name": "7890001036190",
+    "stock_available": 13,
+    "sales_last_30d": 3,
+    "coverage_days": 130,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AV-OW-41",
+    "product_name": "RS7-AV-OW-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-B-41",
+    "product_name": "911CR-B-41",
+    "stock_available": 17,
+    "sales_last_30d": 2,
+    "coverage_days": 255,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-MR-45",
+    "product_name": "PHTKNIT-MR-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-B-42",
+    "product_name": "RS6AVANT-B-42",
+    "stock_available": 23,
+    "sales_last_30d": 55,
+    "coverage_days": 12.545454545454547,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-CT-42",
+    "product_name": "RS8AVANT-CT-42",
+    "stock_available": 4,
+    "sales_last_30d": 7,
+    "coverage_days": 17.142857142857142,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6-OW-45",
+    "product_name": "RS6-OW-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-AB-43",
+    "product_name": "RS8AVANT-AB-43",
+    "stock_available": 6,
+    "sales_last_30d": 6,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "CARRERA-M-44",
+    "product_name": "CARRERA-M-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001038781",
+    "product_name": "7890001038781",
+    "stock_available": 51,
+    "sales_last_30d": 21,
+    "coverage_days": 72.85714285714286,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-AB-38",
+    "product_name": "911CR-AB-38",
+    "stock_available": 1,
+    "sales_last_30d": 1,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7909795451406",
+    "product_name": "7909795451406",
+    "stock_available": 1,
+    "sales_last_30d": 1,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS7-M-41",
+    "product_name": "RS7-M-41",
+    "stock_available": 78,
+    "sales_last_30d": 31,
+    "coverage_days": 75.48387096774192,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-B-40",
+    "product_name": "PHTSLIP-B-40",
+    "stock_available": 17,
+    "sales_last_30d": 2,
+    "coverage_days": 255,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-P-41",
+    "product_name": "RS7AVANT-P-41",
+    "stock_available": 34,
+    "sales_last_30d": 8,
+    "coverage_days": 127.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-MR-42",
+    "product_name": "URUS-MR-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001038774",
+    "product_name": "7890001038774",
+    "stock_available": 5,
+    "sales_last_30d": 64,
+    "coverage_days": 2.34375,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-B-40",
+    "product_name": "RS6AVANT-B-40",
+    "stock_available": 64,
+    "sales_last_30d": 54,
+    "coverage_days": 35.55555555555556,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6AVANT-AB-38",
+    "product_name": "RS6AVANT-AB-38",
+    "stock_available": 1,
+    "sales_last_30d": 9,
+    "coverage_days": 3.3333333333333335,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-MC-42",
+    "product_name": "RS8AVANT-MC-42",
+    "stock_available": 19,
+    "sales_last_30d": 9,
+    "coverage_days": 63.333333333333336,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451383",
+    "product_name": "7909795451383",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-M-39",
+    "product_name": "PHTSLIP-M-39",
+    "stock_available": 28,
+    "sales_last_30d": 7,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-P-42",
+    "product_name": "911CR-P-42",
+    "stock_available": 1,
+    "sales_last_30d": 7,
+    "coverage_days": 4.285714285714286,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7-P-39",
+    "product_name": "RS7-P-39",
+    "stock_available": 29,
+    "sales_last_30d": 10,
+    "coverage_days": 87,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-B-42",
+    "product_name": "911CR-B-42",
+    "stock_available": 6,
+    "sales_last_30d": 4,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-B-43",
+    "product_name": "911-B-43",
+    "stock_available": 23,
+    "sales_last_30d": 2,
+    "coverage_days": 345,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-M-40",
+    "product_name": "CARRERA-M-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-MR-41",
+    "product_name": "URUS-MR-41",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-P-40",
+    "product_name": "PHTSLIP-P-40",
+    "stock_available": 32,
+    "sales_last_30d": 8,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7899250433996",
+    "product_name": "7899250433996",
+    "stock_available": 34,
+    "sales_last_30d": 13,
+    "coverage_days": 78.46153846153845,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-NM-38",
+    "product_name": "RS6GT-NM-38",
+    "stock_available": 14,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-OW-43",
+    "product_name": "RS7AVANT-OW-43",
+    "stock_available": 15,
+    "sales_last_30d": 8,
+    "coverage_days": 56.25,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-M-44",
+    "product_name": "RS7-M-44",
+    "stock_available": 21,
+    "sales_last_30d": 9,
+    "coverage_days": 70,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AV-OW-44",
+    "product_name": "RS7-AV-OW-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-V-44",
+    "product_name": "CARRERA-V-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-MR-38",
+    "product_name": "RS6AVANT-MR-38",
+    "stock_available": 25,
+    "sales_last_30d": 8,
+    "coverage_days": 93.75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-OW-38",
+    "product_name": "911CR-OW-38",
+    "stock_available": 11,
+    "sales_last_30d": 2,
+    "coverage_days": 165,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-B-42",
+    "product_name": "KNIT-B-42",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-AB-40",
+    "product_name": "911-AB-40",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-MR-41",
+    "product_name": "PHTKNIT-MR-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-AB-40",
+    "product_name": "RS6-AB-40",
+    "stock_available": 11,
+    "sales_last_30d": 26,
+    "coverage_days": 12.692307692307692,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "7890001013795",
+    "product_name": "7890001013795",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-AB-42",
+    "product_name": "911CR-AB-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036237",
+    "product_name": "7890001036237",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-P-44",
+    "product_name": "RS8AVANT-P-44",
+    "stock_available": 13,
+    "sales_last_30d": 18,
+    "coverage_days": 21.666666666666668,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-M-41",
+    "product_name": "RS6AVANT-M-41",
+    "stock_available": 16,
+    "sales_last_30d": 29,
+    "coverage_days": 16.551724137931036,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS3-M-45",
+    "product_name": "RS3-M-45",
+    "stock_available": 3,
+    "sales_last_30d": 1,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-AW-39",
+    "product_name": "TN-RSX-AW-39",
+    "stock_available": 39,
+    "sales_last_30d": 8,
+    "coverage_days": 146.25,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036312",
+    "product_name": "7890001036312",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-B-41",
+    "product_name": "RS7-B-41",
+    "stock_available": 225,
+    "sales_last_30d": 84,
+    "coverage_days": 80.35714285714286,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-PB-40",
+    "product_name": "RS7-PB-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-P-43",
+    "product_name": "MACAN-P-43",
+    "stock_available": 9,
+    "sales_last_30d": 4,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MACAN-P-45",
+    "product_name": "MACAN-P-45",
+    "stock_available": 5,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-P-41",
+    "product_name": "URUS-P-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-C-43",
+    "product_name": "CARRERA-C-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-MAR-45",
+    "product_name": "TN-RSX-MAR-45",
+    "stock_available": 4,
+    "sales_last_30d": 3,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "OFC0091082",
+    "product_name": "OFC0091082",
+    "stock_available": 19,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-C-46",
+    "product_name": "PHTKNIT-C-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-MR-38",
+    "product_name": "PHTKNIT-MR-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-PTO-45",
+    "product_name": "TN-RSX-PTO-45",
+    "stock_available": 13,
+    "sales_last_30d": 2,
+    "coverage_days": 195,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-M-40",
+    "product_name": "RS7-M-40",
+    "stock_available": 53,
+    "sales_last_30d": 34,
+    "coverage_days": 46.76470588235294,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-AB-39",
+    "product_name": "TN-RSX-AB-39",
+    "stock_available": 18,
+    "sales_last_30d": 7,
+    "coverage_days": 77.14285714285714,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001035957",
+    "product_name": "7890001035957",
+    "stock_available": 20,
+    "sales_last_30d": 1,
+    "coverage_days": 600,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-P-40",
+    "product_name": "RS6-P-40",
+    "stock_available": 16,
+    "sales_last_30d": 28,
+    "coverage_days": 17.142857142857142,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "7890001035926",
+    "product_name": "7890001035926",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-P-44",
+    "product_name": "RS6AVANT-P-44",
+    "stock_available": 11,
+    "sales_last_30d": 5,
+    "coverage_days": 66,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-B-40",
+    "product_name": "KNIT-B-40",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-M-45",
+    "product_name": "PHTEASY-M-45",
+    "stock_available": 4,
+    "sales_last_30d": 1,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-P-39",
+    "product_name": "KNIT-P-39",
+    "stock_available": 66,
+    "sales_last_30d": 15,
+    "coverage_days": 132,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-MR-44",
+    "product_name": "KNIT-MR-44",
+    "stock_available": 15,
+    "sales_last_30d": 5,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-AB-39",
+    "product_name": "RS6AVANT-AB-39",
+    "stock_available": 27,
+    "sales_last_30d": 8,
+    "coverage_days": 101.25,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-C-39",
+    "product_name": "PHTKNIT-C-39",
+    "stock_available": 13,
+    "sales_last_30d": 2,
+    "coverage_days": 195,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-P-40",
+    "product_name": "CARRERA-P-40",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-M-40",
+    "product_name": "PHTSLIP-M-40",
+    "stock_available": 39,
+    "sales_last_30d": 14,
+    "coverage_days": 83.57142857142857,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-TM-38",
+    "product_name": "RS6AVANT-TM-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-OW-46",
+    "product_name": "RS6AVANT-OW-46",
+    "stock_available": 12,
+    "sales_last_30d": 1,
+    "coverage_days": 360,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-P-44",
+    "product_name": "911CR-P-44",
+    "stock_available": 12,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-CT-46",
+    "product_name": "RS8AVANT-CT-46",
+    "stock_available": 2,
+    "sales_last_30d": 1,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036220",
+    "product_name": "7890001036220",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451284",
+    "product_name": "7909795451284",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-P-45",
+    "product_name": "RS6AVANT-P-45",
+    "stock_available": 5,
+    "sales_last_30d": 2,
+    "coverage_days": 75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARTEIRA-SERIE",
+    "product_name": "CARTEIRA-SERIE",
+    "stock_available": 20,
+    "sales_last_30d": 4,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-V-42",
+    "product_name": "KNITGT-V-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-B-37",
+    "product_name": "PHTEASY-B-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-C-43",
+    "product_name": "RS7-C-43",
+    "stock_available": 27,
+    "sales_last_30d": 15,
+    "coverage_days": 54,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-P-38",
+    "product_name": "RS3-P-38",
+    "stock_available": 6,
+    "sales_last_30d": 4,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-C-41",
+    "product_name": "KNITGT-C-41",
+    "stock_available": 11,
+    "sales_last_30d": 2,
+    "coverage_days": 165,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "SILVER-CIN",
+    "product_name": "SILVER-CIN",
+    "stock_available": 5,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001013412",
+    "product_name": "7890001013412",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-MR-43",
+    "product_name": "URUS-MR-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-M-38",
+    "product_name": "RS7AVANT-M-38",
+    "stock_available": 7,
+    "sales_last_30d": 1,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001035971",
+    "product_name": "7890001035971",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6GT-B-40",
+    "product_name": "RS6GT-B-40",
+    "stock_available": 51,
+    "sales_last_30d": 21,
+    "coverage_days": 72.85714285714286,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-CF-45",
+    "product_name": "RS8AVANT-CF-45",
+    "stock_available": 1,
+    "sales_last_30d": 2,
+    "coverage_days": 15,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "CINTO-DF-110",
+    "product_name": "CINTO-DF-110",
+    "stock_available": 11,
+    "sales_last_30d": 23,
+    "coverage_days": 14.347826086956522,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "URUS-C-41",
+    "product_name": "URUS-C-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-MR-40",
+    "product_name": "RS6AVANT-MR-40",
+    "stock_available": 75,
+    "sales_last_30d": 19,
+    "coverage_days": 118.42105263157896,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-O-43",
+    "product_name": "RS8AVANT-O-43",
+    "stock_available": 22,
+    "sales_last_30d": 49,
+    "coverage_days": 13.46938775510204,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6GT-B-45",
+    "product_name": "RS6GT-B-45",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-NM-44",
+    "product_name": "RS6GT-NM-44",
+    "stock_available": 11,
+    "sales_last_30d": 2,
+    "coverage_days": 165,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036336",
+    "product_name": "7890001036336",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036435",
+    "product_name": "7890001036435",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KRAHEN-P-40",
+    "product_name": "KRAHEN-P-40",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-V-42",
+    "product_name": "CARRERA-V-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-B-40",
+    "product_name": "URUS-B-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-TM-45",
+    "product_name": "RS6AVANT-TM-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-MR-38",
+    "product_name": "911CR-MR-38",
+    "stock_available": 10,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-P-43",
+    "product_name": "PHTSLIP-P-43",
+    "stock_available": 16,
+    "sales_last_30d": 6,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-OW-43",
+    "product_name": "PHTKNIT-OW-43",
+    "stock_available": 12,
+    "sales_last_30d": 2,
+    "coverage_days": 180,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-P-45",
+    "product_name": "URUS-P-45",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-OW-44",
+    "product_name": "RS7AVANT-OW-44",
+    "stock_available": 3,
+    "sales_last_30d": 4,
+    "coverage_days": 22.5,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7AVANT-OW-38",
+    "product_name": "RS7AVANT-OW-38",
+    "stock_available": 15,
+    "sales_last_30d": 2,
+    "coverage_days": 225,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-V-38",
+    "product_name": "KNITGT-V-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MCH097M055",
+    "product_name": "MCH097M055",
+    "stock_available": 3,
+    "sales_last_30d": 10,
+    "coverage_days": 9,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTEASY-OW-43",
+    "product_name": "PHTEASY-OW-43",
+    "stock_available": 9,
+    "sales_last_30d": 7,
+    "coverage_days": 38.57142857142857,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "TN-RSX-PTO-43",
+    "product_name": "TN-RSX-PTO-43",
+    "stock_available": 10,
+    "sales_last_30d": 5,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-M-38",
+    "product_name": "KNITGT-M-38",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTEASY-OW-37",
+    "product_name": "PHTEASY-OW-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-AB-40",
+    "product_name": "KNITGT-AB-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036213",
+    "product_name": "7890001036213",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-P-41",
+    "product_name": "RS8AVANT-P-41",
+    "stock_available": 109,
+    "sales_last_30d": 50,
+    "coverage_days": 65.39999999999999,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7898676461118",
+    "product_name": "7898676461118",
+    "stock_available": 241,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-B-45",
+    "product_name": "PHTEASY-B-45",
+    "stock_available": 4,
+    "sales_last_30d": 1,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-B-38",
+    "product_name": "PHTEASY-B-38",
+    "stock_available": 5,
+    "sales_last_30d": 4,
+    "coverage_days": 37.5,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7891108081922",
+    "product_name": "7891108081922",
+    "stock_available": 0,
+    "sales_last_30d": 37,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-AB-46",
+    "product_name": "RS6AVANT-AB-46",
+    "stock_available": 9,
+    "sales_last_30d": 6,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-M-42",
+    "product_name": "RS7AVANT-M-42",
+    "stock_available": 17,
+    "sales_last_30d": 5,
+    "coverage_days": 102,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-P-42",
+    "product_name": "PHTSLIP-P-42",
+    "stock_available": 22,
+    "sales_last_30d": 13,
+    "coverage_days": 50.76923076923077,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-OW-41",
+    "product_name": "RS6GT-OW-41",
+    "stock_available": 84,
+    "sales_last_30d": 50,
+    "coverage_days": 50.4,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-PTO-38",
+    "product_name": "TN-RSX-PTO-38",
+    "stock_available": 13,
+    "sales_last_30d": 2,
+    "coverage_days": 195,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-NM-41",
+    "product_name": "RS6GT-NM-41",
+    "stock_available": 15,
+    "sales_last_30d": 11,
+    "coverage_days": 40.909090909090914,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "CARRERA-C-40",
+    "product_name": "CARRERA-C-40",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-B-46",
+    "product_name": "PHTSLIP-B-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-B-44",
+    "product_name": "RS6-B-44",
+    "stock_available": 1,
+    "sales_last_30d": 11,
+    "coverage_days": 2.7272727272727275,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNIT-AB-39",
+    "product_name": "KNIT-AB-39",
+    "stock_available": 20,
+    "sales_last_30d": 8,
+    "coverage_days": 75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-M-43",
+    "product_name": "RS6-M-43",
+    "stock_available": 20,
+    "sales_last_30d": 18,
+    "coverage_days": 33.333333333333336,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6AVANT-OW-39",
+    "product_name": "RS6AVANT-OW-39",
+    "stock_available": 19,
+    "sales_last_30d": 19,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "Mochila-Nord",
+    "product_name": "Mochila-Nord",
+    "stock_available": 16,
+    "sales_last_30d": 1,
+    "coverage_days": 480,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-B-38",
+    "product_name": "RS7-B-38",
+    "stock_available": 78,
+    "sales_last_30d": 17,
+    "coverage_days": 137.64705882352942,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-MR-43",
+    "product_name": "911CR-MR-43",
+    "stock_available": 3,
+    "sales_last_30d": 1,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-AB-43",
+    "product_name": "911-AB-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-B-45",
+    "product_name": "KNITGT-B-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-SUP-39",
+    "product_name": "TN-SUP-39",
+    "stock_available": 22,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7892919825442",
+    "product_name": "7892919825442",
+    "stock_available": 291,
+    "sales_last_30d": 3,
+    "coverage_days": 2910,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-AB-38",
+    "product_name": "911-AB-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-B-43",
+    "product_name": "RS6AVANT-B-43",
+    "stock_available": 56,
+    "sales_last_30d": 29,
+    "coverage_days": 57.93103448275862,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KRAHEN-P-39",
+    "product_name": "KRAHEN-P-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001015089",
+    "product_name": "7890001015089",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-B-43",
+    "product_name": "KNIT-B-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795450973",
+    "product_name": "7909795450973",
+    "stock_available": 4,
+    "sales_last_30d": 1,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KRAHEN-OW-40",
+    "product_name": "KRAHEN-OW-40",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CASENOT-NYC-PT",
+    "product_name": "CASENOT-NYC-PT",
+    "stock_available": 18,
+    "sales_last_30d": 1,
+    "coverage_days": 540,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-OW-43",
+    "product_name": "RS6GT-OW-43",
+    "stock_available": 52,
+    "sales_last_30d": 13,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-M-45",
+    "product_name": "RS6-M-45",
+    "stock_available": 0,
+    "sales_last_30d": 6,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911CR-P-40",
+    "product_name": "911CR-P-40",
+    "stock_available": 5,
+    "sales_last_30d": 3,
+    "coverage_days": 50,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451475",
+    "product_name": "7909795451475",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "L911GT-P-42",
+    "product_name": "L911GT-P-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-OW-38",
+    "product_name": "CARRERA-OW-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-V-43",
+    "product_name": "KNITGT-V-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-M-40",
+    "product_name": "PHTEASY-M-40",
+    "stock_available": 10,
+    "sales_last_30d": 26,
+    "coverage_days": 11.538461538461538,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNITGT-V-44",
+    "product_name": "KNITGT-V-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-P-45",
+    "product_name": "RS8-P-45",
+    "stock_available": 2,
+    "sales_last_30d": 2,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "KNITGT-AB-39",
+    "product_name": "KNITGT-AB-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-P-42",
+    "product_name": "RS7AVANT-P-42",
+    "stock_available": 33,
+    "sales_last_30d": 11,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-AB-45",
+    "product_name": "URUS-AB-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-P-39",
+    "product_name": "911-P-39",
+    "stock_available": 19,
+    "sales_last_30d": 12,
+    "coverage_days": 47.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-B-44",
+    "product_name": "RS8AVANT-B-44",
+    "stock_available": 25,
+    "sales_last_30d": 14,
+    "coverage_days": 53.57142857142857,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-M-39",
+    "product_name": "PHTEASY-M-39",
+    "stock_available": 35,
+    "sales_last_30d": 7,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-M-46",
+    "product_name": "RS7AVANT-M-46",
+    "stock_available": 8,
+    "sales_last_30d": 2,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCH-NYC-MARIN",
+    "product_name": "MCH-NYC-MARIN",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-MR-37",
+    "product_name": "PHTKNIT-MR-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-COW-44",
+    "product_name": "911GT-COW-44",
+    "stock_available": 4,
+    "sales_last_30d": 3,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911CR-C-39",
+    "product_name": "911CR-C-39",
+    "stock_available": 4,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001013405",
+    "product_name": "7890001013405",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-AB-40",
+    "product_name": "KNIT-AB-40",
+    "stock_available": 30,
+    "sales_last_30d": 13,
+    "coverage_days": 69.23076923076923,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-AB-41",
+    "product_name": "TN-RSX-AB-41",
+    "stock_available": 12,
+    "sales_last_30d": 14,
+    "coverage_days": 25.714285714285715,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS8AVANT-MC-45",
+    "product_name": "RS8AVANT-MC-45",
+    "stock_available": 5,
+    "sales_last_30d": 2,
+    "coverage_days": 75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-O-38",
+    "product_name": "RS8AVANT-O-38",
+    "stock_available": 19,
+    "sales_last_30d": 20,
+    "coverage_days": 28.5,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "KNIT-P-43",
+    "product_name": "KNIT-P-43",
+    "stock_available": 68,
+    "sales_last_30d": 9,
+    "coverage_days": 226.66666666666669,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001038750",
+    "product_name": "7890001038750",
+    "stock_available": 44,
+    "sales_last_30d": 45,
+    "coverage_days": 29.333333333333332,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7909795451376",
+    "product_name": "7909795451376",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "7890001013344",
+    "product_name": "7890001013344",
+    "stock_available": 71,
+    "sales_last_30d": 83,
+    "coverage_days": 25.662650602409638,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PHTSLIP-M-41",
+    "product_name": "PHTSLIP-M-41",
+    "stock_available": 54,
+    "sales_last_30d": 14,
+    "coverage_days": 115.71428571428571,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-M-43",
+    "product_name": "PHTEASY-M-43",
+    "stock_available": 23,
+    "sales_last_30d": 8,
+    "coverage_days": 86.25,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-B-45",
+    "product_name": "911CR-B-45",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-OW-43",
+    "product_name": "911CR-OW-43",
+    "stock_available": 2,
+    "sales_last_30d": 3,
+    "coverage_days": 20,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911GT-NOW-42",
+    "product_name": "911GT-NOW-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-B-43",
+    "product_name": "PHTSLIP-B-43",
+    "stock_available": 3,
+    "sales_last_30d": 2,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-AB-45",
+    "product_name": "KNITGT-AB-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-P-41",
+    "product_name": "911GT-P-41",
+    "stock_available": 27,
+    "sales_last_30d": 6,
+    "coverage_days": 135,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-OW-42",
+    "product_name": "PHTEASY-OW-42",
+    "stock_available": 2,
+    "sales_last_30d": 19,
+    "coverage_days": 3.1578947368421053,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "L911GT-P-45",
+    "product_name": "L911GT-P-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-M-43",
+    "product_name": "MACAN-M-43",
+    "stock_available": 10,
+    "sales_last_30d": 7,
+    "coverage_days": 42.857142857142854,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "URUS-C-40",
+    "product_name": "URUS-C-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-P-44",
+    "product_name": "RS7AVANT-P-44",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-B-44",
+    "product_name": "911-B-44",
+    "stock_available": 8,
+    "sales_last_30d": 3,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-B-42",
+    "product_name": "911-B-42",
+    "stock_available": 26,
+    "sales_last_30d": 14,
+    "coverage_days": 55.714285714285715,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCHNYCCHOC",
+    "product_name": "MCHNYCCHOC",
+    "stock_available": 1,
+    "sales_last_30d": 24,
+    "coverage_days": 1.25,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "N009",
+    "product_name": "N009",
+    "stock_available": 29,
+    "sales_last_30d": 1,
+    "coverage_days": 870,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MACAN-M-39",
+    "product_name": "MACAN-M-39",
+    "stock_available": 18,
+    "sales_last_30d": 7,
+    "coverage_days": 77.14285714285714,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-OW-40",
+    "product_name": "URUS-OW-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-PB-43",
+    "product_name": "RS7-PB-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-B-39",
+    "product_name": "PHTEASY-B-39",
+    "stock_available": 6,
+    "sales_last_30d": 8,
+    "coverage_days": 22.5,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "7890001036169",
+    "product_name": "7890001036169",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-V-45",
+    "product_name": "CARRERA-V-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-B-43",
+    "product_name": "MACAN-B-43",
+    "stock_available": 11,
+    "sales_last_30d": 2,
+    "coverage_days": 165,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451017",
+    "product_name": "7909795451017",
+    "stock_available": 6,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-M-42",
+    "product_name": "911-M-42",
+    "stock_available": 36,
+    "sales_last_30d": 7,
+    "coverage_days": 154.28571428571428,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-P-38",
+    "product_name": "RS6-P-38",
+    "stock_available": 5,
+    "sales_last_30d": 12,
+    "coverage_days": 12.5,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7-P-41",
+    "product_name": "RS7-P-41",
+    "stock_available": 61,
+    "sales_last_30d": 19,
+    "coverage_days": 96.31578947368422,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-OW-40",
+    "product_name": "PHTEASY-OW-40",
+    "stock_available": 20,
+    "sales_last_30d": 17,
+    "coverage_days": 35.294117647058826,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS3-AW-40",
+    "product_name": "RS3-AW-40",
+    "stock_available": 35,
+    "sales_last_30d": 2,
+    "coverage_days": 525,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-P-42",
+    "product_name": "URUS-P-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-P-44",
+    "product_name": "KNIT-P-44",
+    "stock_available": 26,
+    "sales_last_30d": 3,
+    "coverage_days": 260,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "OFC0101082",
+    "product_name": "OFC0101082",
+    "stock_available": 19,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-AB-42",
+    "product_name": "RS6AVANT-AB-42",
+    "stock_available": 0,
+    "sales_last_30d": 27,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "CARRERA-P-43",
+    "product_name": "CARRERA-P-43",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-C-39",
+    "product_name": "RS8AVANT-C-39",
+    "stock_available": 130,
+    "sales_last_30d": 99,
+    "coverage_days": 39.3939393939394,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PHTSLIP-OW-38",
+    "product_name": "PHTSLIP-OW-38",
+    "stock_available": -2,
+    "sales_last_30d": 6,
+    "coverage_days": -10,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTSLIP-OW-40",
+    "product_name": "PHTSLIP-OW-40",
+    "stock_available": 20,
+    "sales_last_30d": 8,
+    "coverage_days": 75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-OW-46",
+    "product_name": "PHTKNIT-OW-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-OW-40",
+    "product_name": "RS6-OW-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "L911GT-P-40",
+    "product_name": "L911GT-P-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-AB-39",
+    "product_name": "RS6-AB-39",
+    "stock_available": 14,
+    "sales_last_30d": 8,
+    "coverage_days": 52.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-B-45",
+    "product_name": "RS8AVANT-B-45",
+    "stock_available": 14,
+    "sales_last_30d": 4,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-B-41",
+    "product_name": "PHTEASY-B-41",
+    "stock_available": 9,
+    "sales_last_30d": 8,
+    "coverage_days": 33.75,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6AVANT-M-38",
+    "product_name": "RS6AVANT-M-38",
+    "stock_available": 18,
+    "sales_last_30d": 2,
+    "coverage_days": 270,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-MR-40",
+    "product_name": "RS8-MR-40",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-AB-46",
+    "product_name": "RS8AVANT-AB-46",
+    "stock_available": 2,
+    "sales_last_30d": 1,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036374",
+    "product_name": "7890001036374",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-OW-42",
+    "product_name": "PHTSLIP-OW-42",
+    "stock_available": 22,
+    "sales_last_30d": 5,
+    "coverage_days": 132,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-AB-39",
+    "product_name": "911-AB-39",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-B-45",
+    "product_name": "URUS-B-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS-GIFT-BAG",
+    "product_name": "RS-GIFT-BAG",
+    "stock_available": 883,
+    "sales_last_30d": 3,
+    "coverage_days": 8830,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-P-46",
+    "product_name": "PHTKNIT-P-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-B-42",
+    "product_name": "MACAN-B-42",
+    "stock_available": 20,
+    "sales_last_30d": 4,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001013818",
+    "product_name": "7890001013818",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-B-43",
+    "product_name": "PHTEASY-B-43",
+    "stock_available": 26,
+    "sales_last_30d": 3,
+    "coverage_days": 260,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451321",
+    "product_name": "7909795451321",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-OW-44",
+    "product_name": "RS6GT-OW-44",
+    "stock_available": 27,
+    "sales_last_30d": 2,
+    "coverage_days": 405,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-OW-38",
+    "product_name": "URUS-OW-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-B-39",
+    "product_name": "PHTSLIP-B-39",
+    "stock_available": 11,
+    "sales_last_30d": 2,
+    "coverage_days": 165,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-SUP-43",
+    "product_name": "TN-SUP-43",
+    "stock_available": 11,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036398",
+    "product_name": "7890001036398",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-MR-45",
+    "product_name": "RS8-MR-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-MR-46",
+    "product_name": "PHTKNIT-MR-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-MR-45",
+    "product_name": "RS6AVANT-MR-45",
+    "stock_available": 10,
+    "sales_last_30d": 2,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-P-41",
+    "product_name": "RS6-P-41",
+    "stock_available": 1,
+    "sales_last_30d": 28,
+    "coverage_days": 1.0714285714285714,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7-AB-45",
+    "product_name": "RS7-AB-45",
+    "stock_available": 7,
+    "sales_last_30d": 3,
+    "coverage_days": 70,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-B-42",
+    "product_name": "RS8AVANT-B-42",
+    "stock_available": 63,
+    "sales_last_30d": 57,
+    "coverage_days": 33.15789473684211,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6AVANT-TM-42",
+    "product_name": "RS6AVANT-TM-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-OW-45",
+    "product_name": "PHTEASY-OW-45",
+    "stock_available": 8,
+    "sales_last_30d": 1,
+    "coverage_days": 240,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-M-40",
+    "product_name": "RS7AVANT-M-40",
+    "stock_available": 18,
+    "sales_last_30d": 6,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-MR-38",
+    "product_name": "KNIT-MR-38",
+    "stock_available": 4,
+    "sales_last_30d": 7,
+    "coverage_days": 17.142857142857142,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNIT-AB-41",
+    "product_name": "KNIT-AB-41",
+    "stock_available": 29,
+    "sales_last_30d": 15,
+    "coverage_days": 58,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-OW-39",
+    "product_name": "RS6GT-OW-39",
+    "stock_available": 63,
+    "sales_last_30d": 24,
+    "coverage_days": 78.75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-B-39",
+    "product_name": "RS6GT-B-39",
+    "stock_available": 33,
+    "sales_last_30d": 12,
+    "coverage_days": 82.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-OW-44",
+    "product_name": "URUS-OW-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-B-45",
+    "product_name": "KNIT-B-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-MR-44",
+    "product_name": "RS6AVANT-MR-44",
+    "stock_available": 13,
+    "sales_last_30d": 3,
+    "coverage_days": 130,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-B-44",
+    "product_name": "RS7-B-44",
+    "stock_available": 51,
+    "sales_last_30d": 14,
+    "coverage_days": 109.28571428571428,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-M-45",
+    "product_name": "RS6AVANT-M-45",
+    "stock_available": 12,
+    "sales_last_30d": 3,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-NOW-38",
+    "product_name": "911GT-NOW-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KRAHEN-OW-38",
+    "product_name": "KRAHEN-OW-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-AW-38",
+    "product_name": "CARRERA-AW-38",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-MR-43",
+    "product_name": "PHTKNIT-MR-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-B-38",
+    "product_name": "911GT-B-38",
+    "stock_available": 9,
+    "sales_last_30d": 1,
+    "coverage_days": 270,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KRAHEN-OW-43",
+    "product_name": "KRAHEN-OW-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-OW-42",
+    "product_name": "RS6GT-OW-42",
+    "stock_available": 69,
+    "sales_last_30d": 30,
+    "coverage_days": 69,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-C-44",
+    "product_name": "RS8-C-44",
+    "stock_available": 21,
+    "sales_last_30d": 3,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "SILVER-TRT",
+    "product_name": "SILVER-TRT",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-B-40",
+    "product_name": "PHTEASY-B-40",
+    "stock_available": 10,
+    "sales_last_30d": 9,
+    "coverage_days": 33.333333333333336,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7890001035964",
+    "product_name": "7890001035964",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-NM-39",
+    "product_name": "RS6GT-NM-39",
+    "stock_available": 13,
+    "sales_last_30d": 7,
+    "coverage_days": 55.714285714285715,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036282",
+    "product_name": "7890001036282",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-PTO-39",
+    "product_name": "TN-RSX-PTO-39",
+    "stock_available": 21,
+    "sales_last_30d": 6,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-P-41",
+    "product_name": "RS6AVANT-P-41",
+    "stock_available": 12,
+    "sales_last_30d": 31,
+    "coverage_days": 11.61290322580645,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNIT-P-42",
+    "product_name": "KNIT-P-42",
+    "stock_available": 80,
+    "sales_last_30d": 16,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-M-40",
+    "product_name": "RS3-M-40",
+    "stock_available": 20,
+    "sales_last_30d": 6,
+    "coverage_days": 100,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-OW-45",
+    "product_name": "PHTKNIT-OW-45",
+    "stock_available": 5,
+    "sales_last_30d": 2,
+    "coverage_days": 75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-O-44",
+    "product_name": "RS8AVANT-O-44",
+    "stock_available": 35,
+    "sales_last_30d": 25,
+    "coverage_days": 42,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PHTKNIT-MR-42",
+    "product_name": "PHTKNIT-MR-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KRAHEN-P-45",
+    "product_name": "KRAHEN-P-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS3-AW-41",
+    "product_name": "RS3-AW-41",
+    "stock_available": 31,
+    "sales_last_30d": 6,
+    "coverage_days": 155,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "L911GT-P-38",
+    "product_name": "L911GT-P-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-B-45",
+    "product_name": "RS6-B-45",
+    "stock_available": 0,
+    "sales_last_30d": 7,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTSLIP-P-37",
+    "product_name": "PHTSLIP-P-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-MR-42",
+    "product_name": "RS6AVANT-MR-42",
+    "stock_available": 31,
+    "sales_last_30d": 19,
+    "coverage_days": 48.94736842105264,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-SUP-38",
+    "product_name": "TN-SUP-38",
+    "stock_available": 4,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451314",
+    "product_name": "7909795451314",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-P-44",
+    "product_name": "PHTKNIT-P-44",
+    "stock_available": 7,
+    "sales_last_30d": 4,
+    "coverage_days": 52.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-MR-44",
+    "product_name": "RS6GT-MR-44",
+    "stock_available": 12,
+    "sales_last_30d": 3,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-AB-42",
+    "product_name": "RS8AVANT-AB-42",
+    "stock_available": 6,
+    "sales_last_30d": 10,
+    "coverage_days": 18,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-B-39",
+    "product_name": "RS6AVANT-B-39",
+    "stock_available": 14,
+    "sales_last_30d": 42,
+    "coverage_days": 10,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS3-AW-42",
+    "product_name": "RS3-AW-42",
+    "stock_available": 23,
+    "sales_last_30d": 3,
+    "coverage_days": 230,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-AW-45",
+    "product_name": "RS3-AW-45",
+    "stock_available": 7,
+    "sales_last_30d": 1,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-P-43",
+    "product_name": "911-P-43",
+    "stock_available": 13,
+    "sales_last_30d": 8,
+    "coverage_days": 48.75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-PB-38",
+    "product_name": "RS7-PB-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-M-38",
+    "product_name": "RS6-M-38",
+    "stock_available": 6,
+    "sales_last_30d": 12,
+    "coverage_days": 15,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-C-43",
+    "product_name": "RS8AVANT-C-43",
+    "stock_available": 78,
+    "sales_last_30d": 77,
+    "coverage_days": 30.389610389610386,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7890001036152",
+    "product_name": "7890001036152",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-B-39",
+    "product_name": "911-B-39",
+    "stock_available": 27,
+    "sales_last_30d": 8,
+    "coverage_days": 101.25,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-OW-43",
+    "product_name": "CARRERA-OW-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-MR-44",
+    "product_name": "URUS-MR-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-AB-42",
+    "product_name": "911GT-AB-42",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KRAHEN-P-38",
+    "product_name": "KRAHEN-P-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KRAHEN-P-42",
+    "product_name": "KRAHEN-P-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-M-44",
+    "product_name": "KNITGT-M-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-B-38",
+    "product_name": "KNITGT-B-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-PB-39",
+    "product_name": "RS7-PB-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-AB-40",
+    "product_name": "RS6GT-AB-40",
+    "stock_available": 18,
+    "sales_last_30d": 20,
+    "coverage_days": 27,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "CARRERA-M-41",
+    "product_name": "CARRERA-M-41",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-OW-39",
+    "product_name": "PHTSLIP-OW-39",
+    "stock_available": 16,
+    "sales_last_30d": 11,
+    "coverage_days": 43.63636363636364,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "MACAN-M-40",
+    "product_name": "MACAN-M-40",
+    "stock_available": 25,
+    "sales_last_30d": 23,
+    "coverage_days": 32.608695652173914,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6AVANT-B-44",
+    "product_name": "RS6AVANT-B-44",
+    "stock_available": 64,
+    "sales_last_30d": 7,
+    "coverage_days": 274.2857142857143,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-C-38",
+    "product_name": "911CR-C-38",
+    "stock_available": 4,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-B-44",
+    "product_name": "PHTSLIP-B-44",
+    "stock_available": 8,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-AW-45",
+    "product_name": "CARRERA-AW-45",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-P-38",
+    "product_name": "MACAN-P-38",
+    "stock_available": 4,
+    "sales_last_30d": 3,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "MACAN-B-41",
+    "product_name": "MACAN-B-41",
+    "stock_available": 28,
+    "sales_last_30d": 2,
+    "coverage_days": 420,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-P-41",
+    "product_name": "RS3-P-41",
+    "stock_available": 25,
+    "sales_last_30d": 12,
+    "coverage_days": 62.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-P-46",
+    "product_name": "RS8AVANT-P-46",
+    "stock_available": 24,
+    "sales_last_30d": 1,
+    "coverage_days": 720,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-PB-42",
+    "product_name": "RS7-PB-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-M-44",
+    "product_name": "PHTSLIP-M-44",
+    "stock_available": 4,
+    "sales_last_30d": 4,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS8-P-40",
+    "product_name": "RS8-P-40",
+    "stock_available": 26,
+    "sales_last_30d": 10,
+    "coverage_days": 78,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-M-46",
+    "product_name": "PHTSLIP-M-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PERF-MAS",
+    "product_name": "PERF-MAS",
+    "stock_available": 263,
+    "sales_last_30d": 29,
+    "coverage_days": 272.0689655172414,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-OW-42",
+    "product_name": "PHTKNIT-OW-42",
+    "stock_available": 10,
+    "sales_last_30d": 9,
+    "coverage_days": 33.333333333333336,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PHTSLIP-B-42",
+    "product_name": "PHTSLIP-B-42",
+    "stock_available": 3,
+    "sales_last_30d": 3,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS7-M-45",
+    "product_name": "RS7-M-45",
+    "stock_available": 11,
+    "sales_last_30d": 6,
+    "coverage_days": 55,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCHMINMARROM",
+    "product_name": "MCHMINMARROM",
+    "stock_available": 3,
+    "sales_last_30d": 6,
+    "coverage_days": 15,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "CARRERA-AW-39",
+    "product_name": "CARRERA-AW-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-P-45",
+    "product_name": "PHTKNIT-P-45",
+    "stock_available": 4,
+    "sales_last_30d": 2,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MANHATTAN-M",
+    "product_name": "MANHATTAN-M",
+    "stock_available": 99,
+    "sales_last_30d": 37,
+    "coverage_days": 80.27027027027026,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451222",
+    "product_name": "7909795451222",
+    "stock_available": 4,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-B-40",
+    "product_name": "KNITGT-B-40",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "NYC-M-PERSO",
+    "product_name": "NYC-M-PERSO",
+    "stock_available": 50,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-NM-42",
+    "product_name": "RS6GT-NM-42",
+    "stock_available": 22,
+    "sales_last_30d": 9,
+    "coverage_days": 73.33333333333334,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-MR-41",
+    "product_name": "RS6AVANT-MR-41",
+    "stock_available": 30,
+    "sales_last_30d": 31,
+    "coverage_days": 29.032258064516125,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "KNITGT-C-43",
+    "product_name": "KNITGT-C-43",
+    "stock_available": 5,
+    "sales_last_30d": 2,
+    "coverage_days": 75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-B-41",
+    "product_name": "URUS-B-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-P-42",
+    "product_name": "RS6AVANT-P-42",
+    "stock_available": 19,
+    "sales_last_30d": 29,
+    "coverage_days": 19.655172413793103,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8-C-38",
+    "product_name": "RS8-C-38",
+    "stock_available": 16,
+    "sales_last_30d": 7,
+    "coverage_days": 68.57142857142857,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-AB-43",
+    "product_name": "URUS-AB-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-C-45",
+    "product_name": "CARRERA-C-45",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-P-41",
+    "product_name": "KNITGT-P-41",
+    "stock_available": 30,
+    "sales_last_30d": 3,
+    "coverage_days": 300,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-C-43",
+    "product_name": "911CR-C-43",
+    "stock_available": 1,
+    "sales_last_30d": 1,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7890001036381",
+    "product_name": "7890001036381",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PORTA-CAR-NYC-PTO",
+    "product_name": "PORTA-CAR-NYC-PTO",
+    "stock_available": 15,
+    "sales_last_30d": 3,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-P-45",
+    "product_name": "RS6-P-45",
+    "stock_available": 0,
+    "sales_last_30d": 4,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-B-41",
+    "product_name": "RS8AVANT-B-41",
+    "stock_available": 110,
+    "sales_last_30d": 59,
+    "coverage_days": 55.93220338983051,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "789",
+    "product_name": "789",
+    "stock_available": 2,
+    "sales_last_30d": 2,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "URUS-AB-39",
+    "product_name": "URUS-AB-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-AB-44",
+    "product_name": "911-AB-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-COW-42",
+    "product_name": "911GT-COW-42",
+    "stock_available": 17,
+    "sales_last_30d": 7,
+    "coverage_days": 72.85714285714286,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036343",
+    "product_name": "7890001036343",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "ESSENTIAL-P",
+    "product_name": "ESSENTIAL-P",
+    "stock_available": 2,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451253",
+    "product_name": "7909795451253",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036206",
+    "product_name": "7890001036206",
+    "stock_available": 2,
+    "sales_last_30d": 3,
+    "coverage_days": 20,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911GT-B-41",
+    "product_name": "911GT-B-41",
+    "stock_available": 23,
+    "sales_last_30d": 9,
+    "coverage_days": 76.66666666666667,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-P-45",
+    "product_name": "PHTSLIP-P-45",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "INTER-PTO",
+    "product_name": "INTER-PTO",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "631430546068",
+    "product_name": "631430546068",
+    "stock_available": 106,
+    "sales_last_30d": 12,
+    "coverage_days": 265,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-AW-41",
+    "product_name": "TN-RSX-AW-41",
+    "stock_available": 30,
+    "sales_last_30d": 21,
+    "coverage_days": 42.85714285714286,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7909795450966",
+    "product_name": "7909795450966",
+    "stock_available": 5,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-M-42",
+    "product_name": "KNITGT-M-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-C-41",
+    "product_name": "RS7-C-41",
+    "stock_available": 54,
+    "sales_last_30d": 27,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-MR-45",
+    "product_name": "RS6GT-MR-45",
+    "stock_available": 8,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-P-44",
+    "product_name": "911-P-44",
+    "stock_available": 15,
+    "sales_last_30d": 5,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-O-45",
+    "product_name": "RS8AVANT-O-45",
+    "stock_available": 1,
+    "sales_last_30d": 11,
+    "coverage_days": 2.7272727272727275,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-CF-44",
+    "product_name": "RS8AVANT-CF-44",
+    "stock_available": 4,
+    "sales_last_30d": 2,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-AB-38",
+    "product_name": "911GT-AB-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CINTO-DF-120",
+    "product_name": "CINTO-DF-120",
+    "stock_available": 0,
+    "sales_last_30d": 8,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6-AB-43",
+    "product_name": "RS6-AB-43",
+    "stock_available": 5,
+    "sales_last_30d": 11,
+    "coverage_days": 13.636363636363637,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7AVANT-P-40",
+    "product_name": "RS7AVANT-P-40",
+    "stock_available": 47,
+    "sales_last_30d": 7,
+    "coverage_days": 201.42857142857142,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-CF-42",
+    "product_name": "RS8AVANT-CF-42",
+    "stock_available": 6,
+    "sales_last_30d": 5,
+    "coverage_days": 36,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911CR-P-39",
+    "product_name": "911CR-P-39",
+    "stock_available": 6,
+    "sales_last_30d": 2,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-MR-40",
+    "product_name": "PHTKNIT-MR-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-P-40",
+    "product_name": "KNIT-P-40",
+    "stock_available": 104,
+    "sales_last_30d": 25,
+    "coverage_days": 124.8,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-OW-41",
+    "product_name": "PHTKNIT-OW-41",
+    "stock_available": 11,
+    "sales_last_30d": 7,
+    "coverage_days": 47.14285714285714,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "N008",
+    "product_name": "N008",
+    "stock_available": 12,
+    "sales_last_30d": 8,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-B-39",
+    "product_name": "RS6-B-39",
+    "stock_available": 100,
+    "sales_last_30d": 39,
+    "coverage_days": 76.92307692307692,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-M-43",
+    "product_name": "RS7AVANT-M-43",
+    "stock_available": 29,
+    "sales_last_30d": 2,
+    "coverage_days": 435,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036404",
+    "product_name": "7890001036404",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-MR-39",
+    "product_name": "URUS-MR-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-OW-41",
+    "product_name": "911CR-OW-41",
+    "stock_available": 0,
+    "sales_last_30d": 6,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911GT-COW-43",
+    "product_name": "911GT-COW-43",
+    "stock_available": 11,
+    "sales_last_30d": 3,
+    "coverage_days": 110,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-MAR-43",
+    "product_name": "TN-RSX-MAR-43",
+    "stock_available": 13,
+    "sales_last_30d": 8,
+    "coverage_days": 48.75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-MR-39",
+    "product_name": "RS8-MR-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-B-45",
+    "product_name": "RS6AVANT-B-45",
+    "stock_available": 13,
+    "sales_last_30d": 4,
+    "coverage_days": 97.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-P-45",
+    "product_name": "911GT-P-45",
+    "stock_available": 6,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-AB-44",
+    "product_name": "911GT-AB-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001015096",
+    "product_name": "7890001015096",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KRAHEN-OW-45",
+    "product_name": "KRAHEN-OW-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-C-44",
+    "product_name": "URUS-C-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-C-45",
+    "product_name": "RS7-C-45",
+    "stock_available": 10,
+    "sales_last_30d": 8,
+    "coverage_days": 37.5,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS7AVANT-M-39",
+    "product_name": "RS7AVANT-M-39",
+    "stock_available": 4,
+    "sales_last_30d": 6,
+    "coverage_days": 20,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "7899250431855",
+    "product_name": "7899250431855",
+    "stock_available": 18,
+    "sales_last_30d": 12,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-OW-39",
+    "product_name": "RS7AVANT-OW-39",
+    "stock_available": 18,
+    "sales_last_30d": 8,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-AB-45",
+    "product_name": "RS6-AB-45",
+    "stock_available": 4,
+    "sales_last_30d": 2,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-COW-38",
+    "product_name": "911GT-COW-38",
+    "stock_available": 7,
+    "sales_last_30d": 1,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-V-43",
+    "product_name": "CARRERA-V-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-B-40",
+    "product_name": "RS7-B-40",
+    "stock_available": 157,
+    "sales_last_30d": 79,
+    "coverage_days": 59.620253164556964,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-C-42",
+    "product_name": "PHTKNIT-C-42",
+    "stock_available": 18,
+    "sales_last_30d": 3,
+    "coverage_days": 180,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-MC-39",
+    "product_name": "RS8AVANT-MC-39",
+    "stock_available": 20,
+    "sales_last_30d": 1,
+    "coverage_days": 600,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-OW-43",
+    "product_name": "URUS-OW-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PERF-FEM",
+    "product_name": "PERF-FEM",
+    "stock_available": 224,
+    "sales_last_30d": 97,
+    "coverage_days": 69.27835051546391,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-P-38",
+    "product_name": "911GT-P-38",
+    "stock_available": 10,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-MR-44",
+    "product_name": "911CR-MR-44",
+    "stock_available": 2,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-P-38",
+    "product_name": "RS7AVANT-P-38",
+    "stock_available": 12,
+    "sales_last_30d": 2,
+    "coverage_days": 180,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-OW-42",
+    "product_name": "RS6AVANT-OW-42",
+    "stock_available": 28,
+    "sales_last_30d": 11,
+    "coverage_days": 76.36363636363637,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-P-42",
+    "product_name": "KNITGT-P-42",
+    "stock_available": 5,
+    "sales_last_30d": 7,
+    "coverage_days": 21.428571428571427,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNITGT-B-43",
+    "product_name": "KNITGT-B-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-C-41",
+    "product_name": "RS8-C-41",
+    "stock_available": 66,
+    "sales_last_30d": 18,
+    "coverage_days": 110,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-OW-41",
+    "product_name": "RS7AVANT-OW-41",
+    "stock_available": 38,
+    "sales_last_30d": 15,
+    "coverage_days": 76,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-OW-42",
+    "product_name": "CARRERA-OW-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-B-38",
+    "product_name": "911CR-B-38",
+    "stock_available": 7,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-P-44",
+    "product_name": "911GT-P-44",
+    "stock_available": 10,
+    "sales_last_30d": 1,
+    "coverage_days": 300,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-B-40",
+    "product_name": "911GT-B-40",
+    "stock_available": 25,
+    "sales_last_30d": 4,
+    "coverage_days": 187.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-C-39",
+    "product_name": "CARRERA-C-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MCH-VNC-PTO",
+    "product_name": "MCH-VNC-PTO",
+    "stock_available": 10,
+    "sales_last_30d": 1,
+    "coverage_days": 300,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCH100054",
+    "product_name": "MCH100054",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KRAHEN-P-41",
+    "product_name": "KRAHEN-P-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-CT-38",
+    "product_name": "RS8AVANT-CT-38",
+    "stock_available": 0,
+    "sales_last_30d": 3,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTEASY-P-40",
+    "product_name": "PHTEASY-P-40",
+    "stock_available": 4,
+    "sales_last_30d": 20,
+    "coverage_days": 6,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-B-38",
+    "product_name": "RS6AVANT-B-38",
+    "stock_available": 46,
+    "sales_last_30d": 11,
+    "coverage_days": 125.45454545454547,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-B-42",
+    "product_name": "KNITGT-B-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-M-46",
+    "product_name": "RS6AVANT-M-46",
+    "stock_available": 9,
+    "sales_last_30d": 4,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "M080007",
+    "product_name": "M080007",
+    "stock_available": 4,
+    "sales_last_30d": 3,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS3-M-38",
+    "product_name": "RS3-M-38",
+    "stock_available": 6,
+    "sales_last_30d": 1,
+    "coverage_days": 180,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451499",
+    "product_name": "7909795451499",
+    "stock_available": 2,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-V-39",
+    "product_name": "CARRERA-V-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001038767",
+    "product_name": "7890001038767",
+    "stock_available": 36,
+    "sales_last_30d": 20,
+    "coverage_days": 54,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-P-38",
+    "product_name": "RS6AVANT-P-38",
+    "stock_available": 6,
+    "sales_last_30d": 9,
+    "coverage_days": 20,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6GT-AB-44",
+    "product_name": "RS6GT-AB-44",
+    "stock_available": 9,
+    "sales_last_30d": 2,
+    "coverage_days": 135,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451437",
+    "product_name": "7909795451437",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-V-41",
+    "product_name": "CARRERA-V-41",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001015133",
+    "product_name": "7890001015133",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-C-40",
+    "product_name": "911CR-C-40",
+    "stock_available": 6,
+    "sales_last_30d": 2,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-NOW-39",
+    "product_name": "911GT-NOW-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-OW-44",
+    "product_name": "PHTSLIP-OW-44",
+    "stock_available": 3,
+    "sales_last_30d": 2,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-M-42",
+    "product_name": "RS7-M-42",
+    "stock_available": 61,
+    "sales_last_30d": 26,
+    "coverage_days": 70.38461538461539,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "787",
+    "product_name": "787",
+    "stock_available": 0,
+    "sales_last_30d": 5,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "M080008",
+    "product_name": "M080008",
+    "stock_available": 7,
+    "sales_last_30d": 3,
+    "coverage_days": 70,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-COW-41",
+    "product_name": "911GT-COW-41",
+    "stock_available": 13,
+    "sales_last_30d": 4,
+    "coverage_days": 97.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-M-43",
+    "product_name": "RS6AVANT-M-43",
+    "stock_available": 16,
+    "sales_last_30d": 10,
+    "coverage_days": 48,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-OW-44",
+    "product_name": "RS6-OW-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-M-40",
+    "product_name": "KNITGT-M-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-P-46",
+    "product_name": "RS6AVANT-P-46",
+    "stock_available": 0,
+    "sales_last_30d": 6,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNIT-B-39",
+    "product_name": "KNIT-B-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-P-39",
+    "product_name": "PHTKNIT-P-39",
+    "stock_available": 5,
+    "sales_last_30d": 8,
+    "coverage_days": 18.75,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTSLIP-OW-46",
+    "product_name": "PHTSLIP-OW-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-OW-41",
+    "product_name": "PHTEASY-OW-41",
+    "stock_available": 52,
+    "sales_last_30d": 15,
+    "coverage_days": 104,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-CF-41",
+    "product_name": "RS8AVANT-CF-41",
+    "stock_available": 3,
+    "sales_last_30d": 12,
+    "coverage_days": 7.5,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6-AB-41",
+    "product_name": "RS6-AB-41",
+    "stock_available": 0,
+    "sales_last_30d": 12,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "MACAN-B-45",
+    "product_name": "MACAN-B-45",
+    "stock_available": 5,
+    "sales_last_30d": 1,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-AB-42",
+    "product_name": "KNIT-AB-42",
+    "stock_available": 36,
+    "sales_last_30d": 7,
+    "coverage_days": 154.28571428571428,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AV-OW-43",
+    "product_name": "RS7-AV-OW-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-MAR-40",
+    "product_name": "TN-RSX-MAR-40",
+    "stock_available": 14,
+    "sales_last_30d": 16,
+    "coverage_days": 26.25,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "CARRERA-P-39",
+    "product_name": "CARRERA-P-39",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-CF-38",
+    "product_name": "RS8AVANT-CF-38",
+    "stock_available": 2,
+    "sales_last_30d": 1,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-OW-45",
+    "product_name": "911CR-OW-45",
+    "stock_available": 6,
+    "sales_last_30d": 2,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-OW-46",
+    "product_name": "RS7AVANT-OW-46",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-OW-46",
+    "product_name": "PHTEASY-OW-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-P-37",
+    "product_name": "PHTKNIT-P-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "105",
+    "product_name": "105",
+    "stock_available": 101,
+    "sales_last_30d": 32,
+    "coverage_days": 94.6875,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCH-NYC-PTO",
+    "product_name": "MCH-NYC-PTO",
+    "stock_available": 148,
     "sales_last_30d": 104,
-    "coverage_days": 80.2,
-    "risk_status": "Atenção"
+    "coverage_days": 42.69230769230769,
+    "risk_status": "Atencao"
   },
   {
-    "sku": "SKU-SANDALIA-TOSCANA",
-    "product_name": "Sandália Toscana",
-    "stock_available": 273,
-    "sales_last_30d": 119,
-    "coverage_days": 68.8,
-    "risk_status": "Saudável"
+    "sku": "RS6AVANT-AB-43",
+    "product_name": "RS6AVANT-AB-43",
+    "stock_available": 8,
+    "sales_last_30d": 13,
+    "coverage_days": 18.46153846153846,
+    "risk_status": "Critico"
   },
   {
-    "sku": "SKU-BOLSA-MINI",
-    "product_name": "Bolsa Reise Mini",
-    "stock_available": 521,
-    "sales_last_30d": 187,
-    "coverage_days": 83.6,
-    "risk_status": "Saudável"
+    "sku": "RS3-P-44",
+    "product_name": "RS3-P-44",
+    "stock_available": 13,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
   },
   {
-    "sku": "SKU-TENIS-URBANO",
-    "product_name": "Tênis Urbano Reise",
-    "stock_available": 383,
-    "sales_last_30d": 209,
-    "coverage_days": 55.0,
-    "risk_status": "Saudável"
+    "sku": "RS8AVANT-CF-39",
+    "product_name": "RS8AVANT-CF-39",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
   },
   {
-    "sku": "SKU-MULE-SOFIA",
-    "product_name": "Mule Sofia",
-    "stock_available": 535,
-    "sales_last_30d": 201,
-    "coverage_days": 79.9,
-    "risk_status": "Saudável"
+    "sku": "RS8-P-43",
+    "product_name": "RS8-P-43",
+    "stock_available": 13,
+    "sales_last_30d": 5,
+    "coverage_days": 78,
+    "risk_status": "Saudavel"
   },
   {
-    "sku": "SKU-CINTO-MILANO",
-    "product_name": "Cinto Milano",
-    "stock_available": 368,
-    "sales_last_30d": 114,
-    "coverage_days": 96.8,
-    "risk_status": "Saudável"
+    "sku": "RS8AVANT-O-39",
+    "product_name": "RS8AVANT-O-39",
+    "stock_available": 60,
+    "sales_last_30d": 40,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
   },
   {
-    "sku": "SKU-SCARPIN-CLASSIC",
-    "product_name": "Scarpin Classic",
-    "stock_available": 154,
-    "sales_last_30d": 140,
-    "coverage_days": 33.0,
-    "risk_status": "Atenção"
+    "sku": "CARRERA-C-42",
+    "product_name": "CARRERA-C-42",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-P-39",
+    "product_name": "RS8-P-39",
+    "stock_available": 9,
+    "sales_last_30d": 6,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-P-45",
+    "product_name": "CARRERA-P-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036251",
+    "product_name": "7890001036251",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-AB-40",
+    "product_name": "RS8AVANT-AB-40",
+    "stock_available": 10,
+    "sales_last_30d": 10,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS7-PB-45",
+    "product_name": "RS7-PB-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-P-39",
+    "product_name": "RS8AVANT-P-39",
+    "stock_available": 43,
+    "sales_last_30d": 20,
+    "coverage_days": 64.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KRAHEN-OW-44",
+    "product_name": "KRAHEN-OW-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-NOW-45",
+    "product_name": "911GT-NOW-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-AB-44",
+    "product_name": "URUS-AB-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909392672778",
+    "product_name": "7909392672778",
+    "stock_available": 253,
+    "sales_last_30d": 40,
+    "coverage_days": 189.75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-PB-44",
+    "product_name": "RS7-PB-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-M-40",
+    "product_name": "911-M-40",
+    "stock_available": 22,
+    "sales_last_30d": 10,
+    "coverage_days": 66,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-M-38",
+    "product_name": "PHTSLIP-M-38",
+    "stock_available": 18,
+    "sales_last_30d": 3,
+    "coverage_days": 180,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-AB-42",
+    "product_name": "RS6GT-AB-42",
+    "stock_available": 3,
+    "sales_last_30d": 24,
+    "coverage_days": 3.75,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7-AV-OW-39",
+    "product_name": "RS7-AV-OW-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-MR-41",
+    "product_name": "RS8-MR-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-NOW-44",
+    "product_name": "911GT-NOW-44",
+    "stock_available": 2,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-P-45",
+    "product_name": "911-P-45",
+    "stock_available": 9,
+    "sales_last_30d": 2,
+    "coverage_days": 135,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036305",
+    "product_name": "7890001036305",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-AW-44",
+    "product_name": "TN-RSX-AW-44",
+    "stock_available": 18,
+    "sales_last_30d": 5,
+    "coverage_days": 108,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-P-40",
+    "product_name": "911GT-P-40",
+    "stock_available": 16,
+    "sales_last_30d": 3,
+    "coverage_days": 160,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-B-43",
+    "product_name": "RS6-B-43",
+    "stock_available": 3,
+    "sales_last_30d": 26,
+    "coverage_days": 3.4615384615384612,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8-MR-44",
+    "product_name": "RS8-MR-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-MR-38",
+    "product_name": "URUS-MR-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-M-44",
+    "product_name": "RS7AVANT-M-44",
+    "stock_available": 31,
+    "sales_last_30d": 2,
+    "coverage_days": 465,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-AB-45",
+    "product_name": "KNIT-AB-45",
+    "stock_available": 9,
+    "sales_last_30d": 4,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-B-41",
+    "product_name": "KNITGT-B-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-B-44",
+    "product_name": "KNITGT-B-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "2081",
+    "product_name": "2081",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-AB-42",
+    "product_name": "RS6-AB-42",
+    "stock_available": 0,
+    "sales_last_30d": 13,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "CARRERA-AW-40",
+    "product_name": "CARRERA-AW-40",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-AB-45",
+    "product_name": "911GT-AB-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036121",
+    "product_name": "7890001036121",
+    "stock_available": 17,
+    "sales_last_30d": 5,
+    "coverage_days": 102,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-M-39",
+    "product_name": "KNITGT-M-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-P-38",
+    "product_name": "CARRERA-P-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-MR-40",
+    "product_name": "URUS-MR-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-AB-42",
+    "product_name": "TN-RSX-AB-42",
+    "stock_available": 10,
+    "sales_last_30d": 12,
+    "coverage_days": 25,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS3-M-39",
+    "product_name": "RS3-M-39",
+    "stock_available": 8,
+    "sales_last_30d": 5,
+    "coverage_days": 48,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-CT-44",
+    "product_name": "RS8AVANT-CT-44",
+    "stock_available": 1,
+    "sales_last_30d": 4,
+    "coverage_days": 7.5,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "CARRERA-AW-41",
+    "product_name": "CARRERA-AW-41",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-P-46",
+    "product_name": "PHTSLIP-P-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-B-42",
+    "product_name": "RS7-B-42",
+    "stock_available": 160,
+    "sales_last_30d": 67,
+    "coverage_days": 71.64179104477611,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-M-44",
+    "product_name": "PHTEASY-M-44",
+    "stock_available": 4,
+    "sales_last_30d": 2,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-AB-45",
+    "product_name": "RS8AVANT-AB-45",
+    "stock_available": 4,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-AW-40",
+    "product_name": "TN-RSX-AW-40",
+    "stock_available": 46,
+    "sales_last_30d": 17,
+    "coverage_days": 81.17647058823529,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-V-40",
+    "product_name": "CARRERA-V-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-B-44",
+    "product_name": "911GT-B-44",
+    "stock_available": 8,
+    "sales_last_30d": 3,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-B-42",
+    "product_name": "RS6-B-42",
+    "stock_available": 92,
+    "sales_last_30d": 39,
+    "coverage_days": 70.76923076923077,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-CT-39",
+    "product_name": "RS8AVANT-CT-39",
+    "stock_available": 8,
+    "sales_last_30d": 1,
+    "coverage_days": 240,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-OW-45",
+    "product_name": "CARRERA-OW-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-PB-41",
+    "product_name": "RS7-PB-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-AB-42",
+    "product_name": "KNITGT-AB-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-B-46",
+    "product_name": "PHTEASY-B-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-P-41",
+    "product_name": "PHTSLIP-P-41",
+    "stock_available": 24,
+    "sales_last_30d": 15,
+    "coverage_days": 48,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001013375",
+    "product_name": "7890001013375",
+    "stock_available": 227,
+    "sales_last_30d": 12,
+    "coverage_days": 567.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-M-39",
+    "product_name": "RS7-M-39",
+    "stock_available": 32,
+    "sales_last_30d": 15,
+    "coverage_days": 64,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-MR-40",
+    "product_name": "KNIT-MR-40",
+    "stock_available": 22,
+    "sales_last_30d": 17,
+    "coverage_days": 38.82352941176471,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "KRAHEN-P-43",
+    "product_name": "KRAHEN-P-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "SNK-BAG",
+    "product_name": "SNK-BAG",
+    "stock_available": 328,
+    "sales_last_30d": 124,
+    "coverage_days": 79.35483870967741,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AB-38",
+    "product_name": "RS7-AB-38",
+    "stock_available": 13,
+    "sales_last_30d": 8,
+    "coverage_days": 48.75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001013351",
+    "product_name": "7890001013351",
+    "stock_available": 62,
+    "sales_last_30d": 53,
+    "coverage_days": 35.09433962264151,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS8AVANT-C-42",
+    "product_name": "RS8AVANT-C-42",
+    "stock_available": 83,
+    "sales_last_30d": 148,
+    "coverage_days": 16.824324324324323,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "MCHMNCMARROM",
+    "product_name": "MCHMNCMARROM",
+    "stock_available": 17,
+    "sales_last_30d": 11,
+    "coverage_days": 46.36363636363637,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-B-44",
+    "product_name": "KNIT-B-44",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-MR-39",
+    "product_name": "RS6GT-MR-39",
+    "stock_available": 21,
+    "sales_last_30d": 10,
+    "coverage_days": 63,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "L911GT-P-43",
+    "product_name": "L911GT-P-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS3-P-39",
+    "product_name": "RS3-P-39",
+    "stock_available": 16,
+    "sales_last_30d": 4,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036367",
+    "product_name": "7890001036367",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036329",
+    "product_name": "7890001036329",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7897275170230",
+    "product_name": "7897275170230",
+    "stock_available": 202,
+    "sales_last_30d": 24,
+    "coverage_days": 252.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451000",
+    "product_name": "7909795451000",
+    "stock_available": 4,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451024",
+    "product_name": "7909795451024",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-M-41",
+    "product_name": "RS6GT-M-41",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-OW-42",
+    "product_name": "911CR-OW-42",
+    "stock_available": 5,
+    "sales_last_30d": 8,
+    "coverage_days": 18.75,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911CR-P-41",
+    "product_name": "911CR-P-41",
+    "stock_available": 0,
+    "sales_last_30d": 2,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTEASY-B-42",
+    "product_name": "PHTEASY-B-42",
+    "stock_available": 24,
+    "sales_last_30d": 9,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-MR-40",
+    "product_name": "RS6GT-MR-40",
+    "stock_available": 33,
+    "sales_last_30d": 14,
+    "coverage_days": 70.71428571428571,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-OW-41",
+    "product_name": "CARRERA-OW-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-P-39",
+    "product_name": "RS7AVANT-P-39",
+    "stock_available": 19,
+    "sales_last_30d": 4,
+    "coverage_days": 142.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-M-44",
+    "product_name": "911-M-44",
+    "stock_available": 10,
+    "sales_last_30d": 1,
+    "coverage_days": 300,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-AB-41",
+    "product_name": "RS6GT-AB-41",
+    "stock_available": 29,
+    "sales_last_30d": 22,
+    "coverage_days": 39.54545454545455,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "TN-RSX-AW-38",
+    "product_name": "TN-RSX-AW-38",
+    "stock_available": 24,
+    "sales_last_30d": 3,
+    "coverage_days": 240,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-C-42",
+    "product_name": "911CR-C-42",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-MR-39",
+    "product_name": "RS6AVANT-MR-39",
+    "stock_available": 44,
+    "sales_last_30d": 15,
+    "coverage_days": 88,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KRAHEN-OW-42",
+    "product_name": "KRAHEN-OW-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-MR-41",
+    "product_name": "911CR-MR-41",
+    "stock_available": 4,
+    "sales_last_30d": 3,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7909795451505",
+    "product_name": "7909795451505",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-CT-41",
+    "product_name": "RS8AVANT-CT-41",
+    "stock_available": 8,
+    "sales_last_30d": 7,
+    "coverage_days": 34.285714285714285,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7890001036046",
+    "product_name": "7890001036046",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-OW-40",
+    "product_name": "PHTKNIT-OW-40",
+    "stock_available": 21,
+    "sales_last_30d": 6,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001038743",
+    "product_name": "7890001038743",
+    "stock_available": 110,
+    "sales_last_30d": 6,
+    "coverage_days": 550,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-P-42",
+    "product_name": "RS8AVANT-P-42",
+    "stock_available": 41,
+    "sales_last_30d": 42,
+    "coverage_days": 29.28571428571429,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7909795451291",
+    "product_name": "7909795451291",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036107",
+    "product_name": "7890001036107",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036428",
+    "product_name": "7890001036428",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-OW-39",
+    "product_name": "PHTEASY-OW-39",
+    "stock_available": 24,
+    "sales_last_30d": 7,
+    "coverage_days": 102.85714285714286,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-P-40",
+    "product_name": "RS7-P-40",
+    "stock_available": 58,
+    "sales_last_30d": 23,
+    "coverage_days": 75.65217391304347,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451482",
+    "product_name": "7909795451482",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "TN-RSX-AW-42",
+    "product_name": "TN-RSX-AW-42",
+    "stock_available": 22,
+    "sales_last_30d": 18,
+    "coverage_days": 36.66666666666667,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS8AVANT-AB-38",
+    "product_name": "RS8AVANT-AB-38",
+    "stock_available": 0,
+    "sales_last_30d": 4,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "CARRERA-AW-42",
+    "product_name": "CARRERA-AW-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-B-39",
+    "product_name": "RS7-B-39",
+    "stock_available": 107,
+    "sales_last_30d": 55,
+    "coverage_days": 58.36363636363637,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451444",
+    "product_name": "7909795451444",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "NSM0131082",
+    "product_name": "NSM0131082",
+    "stock_available": 15,
+    "sales_last_30d": 4,
+    "coverage_days": 112.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-P-43",
+    "product_name": "911GT-P-43",
+    "stock_available": 29,
+    "sales_last_30d": 2,
+    "coverage_days": 435,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-MR-42",
+    "product_name": "911CR-MR-42",
+    "stock_available": 3,
+    "sales_last_30d": 1,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-OW-44",
+    "product_name": "PHTKNIT-OW-44",
+    "stock_available": 10,
+    "sales_last_30d": 2,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-P-42",
+    "product_name": "PHTKNIT-P-42",
+    "stock_available": 6,
+    "sales_last_30d": 9,
+    "coverage_days": 20,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911-AB-41",
+    "product_name": "911-AB-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-P-43",
+    "product_name": "RS8AVANT-P-43",
+    "stock_available": 1,
+    "sales_last_30d": 28,
+    "coverage_days": 1.0714285714285714,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911GT-P-39",
+    "product_name": "911GT-P-39",
+    "stock_available": 15,
+    "sales_last_30d": 1,
+    "coverage_days": 450,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-MR-43",
+    "product_name": "RS8-MR-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-B-41",
+    "product_name": "RS6AVANT-B-41",
+    "stock_available": 82,
+    "sales_last_30d": 62,
+    "coverage_days": 39.677419354838705,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6GT-B-38",
+    "product_name": "RS6GT-B-38",
+    "stock_available": 14,
+    "sales_last_30d": 9,
+    "coverage_days": 46.66666666666667,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AV-OW-42",
+    "product_name": "RS7-AV-OW-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-P-38",
+    "product_name": "PHTKNIT-P-38",
+    "stock_available": 5,
+    "sales_last_30d": 1,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-CF-46",
+    "product_name": "RS8AVANT-CF-46",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-B-42",
+    "product_name": "911GT-B-42",
+    "stock_available": 17,
+    "sales_last_30d": 6,
+    "coverage_days": 85,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-M-41",
+    "product_name": "RS3-M-41",
+    "stock_available": 19,
+    "sales_last_30d": 8,
+    "coverage_days": 71.25,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-P-42",
+    "product_name": "RS3-P-42",
+    "stock_available": 21,
+    "sales_last_30d": 5,
+    "coverage_days": 126,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-AB-40",
+    "product_name": "911CR-AB-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-C-39",
+    "product_name": "KNITGT-C-39",
+    "stock_available": 15,
+    "sales_last_30d": 3,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-B-43",
+    "product_name": "911GT-B-43",
+    "stock_available": 20,
+    "sales_last_30d": 3,
+    "coverage_days": 200,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-PTO-42",
+    "product_name": "TN-RSX-PTO-42",
+    "stock_available": 31,
+    "sales_last_30d": 7,
+    "coverage_days": 132.85714285714286,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MACAN-B-38",
+    "product_name": "MACAN-B-38",
+    "stock_available": 10,
+    "sales_last_30d": 1,
+    "coverage_days": 300,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-P-42",
+    "product_name": "PHTEASY-P-42",
+    "stock_available": 11,
+    "sales_last_30d": 11,
+    "coverage_days": 30.000000000000004,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PHTSLIP-P-39",
+    "product_name": "PHTSLIP-P-39",
+    "stock_available": -7,
+    "sales_last_30d": 9,
+    "coverage_days": -23.333333333333336,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911CR-P-43",
+    "product_name": "911CR-P-43",
+    "stock_available": 3,
+    "sales_last_30d": 1,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036060",
+    "product_name": "7890001036060",
+    "stock_available": 10,
+    "sales_last_30d": 6,
+    "coverage_days": 50,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-AB-45",
+    "product_name": "RS6AVANT-AB-45",
+    "stock_available": 8,
+    "sales_last_30d": 3,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-C-43",
+    "product_name": "URUS-C-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-OW-37",
+    "product_name": "PHTKNIT-OW-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-P-44",
+    "product_name": "URUS-P-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-M-38",
+    "product_name": "PHTEASY-M-38",
+    "stock_available": 6,
+    "sales_last_30d": 6,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "788",
+    "product_name": "788",
+    "stock_available": 32,
+    "sales_last_30d": 5,
+    "coverage_days": 192,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-P-38",
+    "product_name": "911CR-P-38",
+    "stock_available": 11,
+    "sales_last_30d": 1,
+    "coverage_days": 330,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-NM-40",
+    "product_name": "RS6GT-NM-40",
+    "stock_available": 10,
+    "sales_last_30d": 7,
+    "coverage_days": 42.857142857142854,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS8AVANT-B-39",
+    "product_name": "RS8AVANT-B-39",
+    "stock_available": 73,
+    "sales_last_30d": 20,
+    "coverage_days": 109.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-AB-43",
+    "product_name": "KNIT-AB-43",
+    "stock_available": 14,
+    "sales_last_30d": 6,
+    "coverage_days": 70,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-AW-43",
+    "product_name": "RS3-AW-43",
+    "stock_available": 9,
+    "sales_last_30d": 2,
+    "coverage_days": 135,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-MR-45",
+    "product_name": "911CR-MR-45",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036091",
+    "product_name": "7890001036091",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "MACAN-M-45",
+    "product_name": "MACAN-M-45",
+    "stock_available": 7,
+    "sales_last_30d": 1,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-C-38",
+    "product_name": "RS7-C-38",
+    "stock_available": 11,
+    "sales_last_30d": 9,
+    "coverage_days": 36.66666666666667,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6GT-M-38",
+    "product_name": "RS6GT-M-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-OW-41",
+    "product_name": "PHTSLIP-OW-41",
+    "stock_available": 17,
+    "sales_last_30d": 10,
+    "coverage_days": 51,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MACAN-B-39",
+    "product_name": "MACAN-B-39",
+    "stock_available": 19,
+    "sales_last_30d": 3,
+    "coverage_days": 190,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7899563321829",
+    "product_name": "7899563321829",
+    "stock_available": 0,
+    "sales_last_30d": 9,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911CR-MR-40",
+    "product_name": "911CR-MR-40",
+    "stock_available": 5,
+    "sales_last_30d": 2,
+    "coverage_days": 75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-B-42",
+    "product_name": "URUS-B-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-P-41",
+    "product_name": "CARRERA-P-41",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-B-45",
+    "product_name": "RS7-B-45",
+    "stock_available": 33,
+    "sales_last_30d": 12,
+    "coverage_days": 82.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036176",
+    "product_name": "7890001036176",
+    "stock_available": 9,
+    "sales_last_30d": 3,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-C-45",
+    "product_name": "RS8-C-45",
+    "stock_available": 5,
+    "sales_last_30d": 1,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-C-43",
+    "product_name": "PHTKNIT-C-43",
+    "stock_available": 14,
+    "sales_last_30d": 1,
+    "coverage_days": 420,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-OW-40",
+    "product_name": "CARRERA-OW-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-C-38",
+    "product_name": "URUS-C-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-P-42",
+    "product_name": "RS8-P-42",
+    "stock_available": 16,
+    "sales_last_30d": 13,
+    "coverage_days": 36.92307692307692,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7909795451420",
+    "product_name": "7909795451420",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-MC-43",
+    "product_name": "RS8AVANT-MC-43",
+    "stock_available": 15,
+    "sales_last_30d": 5,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-C-42",
+    "product_name": "KNITGT-C-42",
+    "stock_available": 12,
+    "sales_last_30d": 1,
+    "coverage_days": 360,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001013368",
+    "product_name": "7890001013368",
+    "stock_available": 265,
+    "sales_last_30d": 84,
+    "coverage_days": 94.64285714285715,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-C-44",
+    "product_name": "RS7-C-44",
+    "stock_available": 15,
+    "sales_last_30d": 8,
+    "coverage_days": 56.25,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-AB-39",
+    "product_name": "911GT-AB-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-OW-40",
+    "product_name": "RS6AVANT-OW-40",
+    "stock_available": 62,
+    "sales_last_30d": 14,
+    "coverage_days": 132.85714285714286,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-AB-43",
+    "product_name": "911CR-AB-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KRAHEN-OW-39",
+    "product_name": "KRAHEN-OW-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-AB-44",
+    "product_name": "KNITGT-AB-44",
+    "stock_available": 1,
+    "sales_last_30d": 1,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911-M-43",
+    "product_name": "911-M-43",
+    "stock_available": 16,
+    "sales_last_30d": 3,
+    "coverage_days": 160,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-M-43",
+    "product_name": "KNITGT-M-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-B-41",
+    "product_name": "PHTSLIP-B-41",
+    "stock_available": 8,
+    "sales_last_30d": 6,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911-M-45",
+    "product_name": "911-M-45",
+    "stock_available": 11,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-M-39",
+    "product_name": "CARRERA-M-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-M-39",
+    "product_name": "RS6AVANT-M-39",
+    "stock_available": 1,
+    "sales_last_30d": 9,
+    "coverage_days": 3.3333333333333335,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7AVANT-OW-42",
+    "product_name": "RS7AVANT-OW-42",
+    "stock_available": 53,
+    "sales_last_30d": 7,
+    "coverage_days": 227.14285714285714,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-AB-41",
+    "product_name": "RS8AVANT-AB-41",
+    "stock_available": 9,
+    "sales_last_30d": 9,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "CARRERA-C-41",
+    "product_name": "CARRERA-C-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-P-39",
+    "product_name": "PHTEASY-P-39",
+    "stock_available": 16,
+    "sales_last_30d": 7,
+    "coverage_days": 68.57142857142857,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-C-40",
+    "product_name": "PHTKNIT-C-40",
+    "stock_available": 23,
+    "sales_last_30d": 4,
+    "coverage_days": 172.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MACAN-M-41",
+    "product_name": "MACAN-M-41",
+    "stock_available": 39,
+    "sales_last_30d": 19,
+    "coverage_days": 61.578947368421055,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-AW-39",
+    "product_name": "RS3-AW-39",
+    "stock_available": 22,
+    "sales_last_30d": 2,
+    "coverage_days": 330,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-B-45",
+    "product_name": "911GT-B-45",
+    "stock_available": 6,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-MR-38",
+    "product_name": "RS8-MR-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-OW-39",
+    "product_name": "RS6-OW-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-AB-42",
+    "product_name": "URUS-AB-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-B-39",
+    "product_name": "911GT-B-39",
+    "stock_available": 23,
+    "sales_last_30d": 1,
+    "coverage_days": 690,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-P-38",
+    "product_name": "RS8-P-38",
+    "stock_available": 8,
+    "sales_last_30d": 7,
+    "coverage_days": 34.285714285714285,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS7AVANT-P-46",
+    "product_name": "RS7AVANT-P-46",
+    "stock_available": 11,
+    "sales_last_30d": 2,
+    "coverage_days": 165,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7AVANT-OW-45",
+    "product_name": "RS7AVANT-OW-45",
+    "stock_available": 2,
+    "sales_last_30d": 2,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "CARRERA-P-44",
+    "product_name": "CARRERA-P-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-MC-38",
+    "product_name": "RS8AVANT-MC-38",
+    "stock_available": 5,
+    "sales_last_30d": 1,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CA253",
+    "product_name": "CA253",
+    "stock_available": 13,
+    "sales_last_30d": 3,
+    "coverage_days": 130,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-M-38",
+    "product_name": "CARRERA-M-38",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-P-41",
+    "product_name": "911-P-41",
+    "stock_available": 28,
+    "sales_last_30d": 20,
+    "coverage_days": 42,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS7-P-45",
+    "product_name": "RS7-P-45",
+    "stock_available": 14,
+    "sales_last_30d": 3,
+    "coverage_days": 140,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-B-43",
+    "product_name": "URUS-B-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-OW-39",
+    "product_name": "CARRERA-OW-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-SUP-40",
+    "product_name": "TN-SUP-40",
+    "stock_available": 16,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-MR-42",
+    "product_name": "KNIT-MR-42",
+    "stock_available": 17,
+    "sales_last_30d": 16,
+    "coverage_days": 31.875,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6GT-AB-39",
+    "product_name": "RS6GT-AB-39",
+    "stock_available": 31,
+    "sales_last_30d": 11,
+    "coverage_days": 84.54545454545455,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-P-42",
+    "product_name": "911GT-P-42",
+    "stock_available": 14,
+    "sales_last_30d": 4,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-C-42",
+    "product_name": "RS7-C-42",
+    "stock_available": 68,
+    "sales_last_30d": 32,
+    "coverage_days": 63.75,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-O-40",
+    "product_name": "RS8AVANT-O-40",
+    "stock_available": 45,
+    "sales_last_30d": 103,
+    "coverage_days": 13.106796116504855,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "CINTO-DF-90",
+    "product_name": "CINTO-DF-90",
+    "stock_available": 15,
+    "sales_last_30d": 11,
+    "coverage_days": 40.909090909090914,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "TN-RSX-AB-38",
+    "product_name": "TN-RSX-AB-38",
+    "stock_available": 11,
+    "sales_last_30d": 2,
+    "coverage_days": 165,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "URUS-AB-41",
+    "product_name": "URUS-AB-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-TM-40",
+    "product_name": "RS6AVANT-TM-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036077",
+    "product_name": "7890001036077",
+    "stock_available": 20,
+    "sales_last_30d": 1,
+    "coverage_days": 600,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-MAR-41",
+    "product_name": "TN-RSX-MAR-41",
+    "stock_available": 23,
+    "sales_last_30d": 18,
+    "coverage_days": 38.333333333333336,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS7-AV-OW-38",
+    "product_name": "RS7-AV-OW-38",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-M-45",
+    "product_name": "CARRERA-M-45",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036053",
+    "product_name": "7890001036053",
+    "stock_available": 14,
+    "sales_last_30d": 2,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-P-38",
+    "product_name": "PHTEASY-P-38",
+    "stock_available": 3,
+    "sales_last_30d": 10,
+    "coverage_days": 9,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-AB-39",
+    "product_name": "RS8AVANT-AB-39",
+    "stock_available": 9,
+    "sales_last_30d": 3,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911-AB-45",
+    "product_name": "911-AB-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-B-41",
+    "product_name": "911-B-41",
+    "stock_available": 52,
+    "sales_last_30d": 12,
+    "coverage_days": 130,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-P-40",
+    "product_name": "RS8AVANT-P-40",
+    "stock_available": 78,
+    "sales_last_30d": 41,
+    "coverage_days": 57.073170731707314,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-C-44",
+    "product_name": "KNITGT-C-44",
+    "stock_available": 7,
+    "sales_last_30d": 3,
+    "coverage_days": 70,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-P-38",
+    "product_name": "PHTSLIP-P-38",
+    "stock_available": 5,
+    "sales_last_30d": 9,
+    "coverage_days": 16.666666666666668,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911CR-B-43",
+    "product_name": "911CR-B-43",
+    "stock_available": 7,
+    "sales_last_30d": 1,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001013382",
+    "product_name": "7890001013382",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-B-38",
+    "product_name": "RS8AVANT-B-38",
+    "stock_available": 20,
+    "sales_last_30d": 21,
+    "coverage_days": 28.571428571428573,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PHTKNIT-P-40",
+    "product_name": "PHTKNIT-P-40",
+    "stock_available": 9,
+    "sales_last_30d": 11,
+    "coverage_days": 24.545454545454547,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-MC-41",
+    "product_name": "RS8AVANT-MC-41",
+    "stock_available": 23,
+    "sales_last_30d": 12,
+    "coverage_days": 57.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909392672747",
+    "product_name": "7909392672747",
+    "stock_available": 286,
+    "sales_last_30d": 20,
+    "coverage_days": 429,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-P-38",
+    "product_name": "KNITGT-P-38",
+    "stock_available": 10,
+    "sales_last_30d": 1,
+    "coverage_days": 300,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-M-42",
+    "product_name": "RS6-M-42",
+    "stock_available": 15,
+    "sales_last_30d": 45,
+    "coverage_days": 10,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911CR-B-39",
+    "product_name": "911CR-B-39",
+    "stock_available": 11,
+    "sales_last_30d": 1,
+    "coverage_days": 330,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001013399",
+    "product_name": "7890001013399",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-P-42",
+    "product_name": "MACAN-P-42",
+    "stock_available": 17,
+    "sales_last_30d": 5,
+    "coverage_days": 102,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AB-42",
+    "product_name": "RS7-AB-42",
+    "stock_available": 50,
+    "sales_last_30d": 15,
+    "coverage_days": 100,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795450980",
+    "product_name": "7909795450980",
+    "stock_available": 1,
+    "sales_last_30d": 1,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "KRAHEN-OW-41",
+    "product_name": "KRAHEN-OW-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-AB-38",
+    "product_name": "KNITGT-AB-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-OW-39",
+    "product_name": "URUS-OW-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451512",
+    "product_name": "7909795451512",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-B-43",
+    "product_name": "RS7-B-43",
+    "stock_available": 57,
+    "sales_last_30d": 34,
+    "coverage_days": 50.294117647058826,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "NYC-P-PERSO",
+    "product_name": "NYC-P-PERSO",
+    "stock_available": 50,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-MR-46",
+    "product_name": "RS6AVANT-MR-46",
+    "stock_available": 12,
+    "sales_last_30d": 3,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-MAR-44",
+    "product_name": "TN-RSX-MAR-44",
+    "stock_available": 5,
+    "sales_last_30d": 4,
+    "coverage_days": 37.5,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "KNIT-AB-38",
+    "product_name": "KNIT-AB-38",
+    "stock_available": 11,
+    "sales_last_30d": 1,
+    "coverage_days": 330,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-AB-39",
+    "product_name": "911CR-AB-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451451",
+    "product_name": "7909795451451",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "SILVER-PTO",
+    "product_name": "SILVER-PTO",
+    "stock_available": 2,
+    "sales_last_30d": 6,
+    "coverage_days": 10,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911GT-COW-40",
+    "product_name": "911GT-COW-40",
+    "stock_available": 20,
+    "sales_last_30d": 11,
+    "coverage_days": 54.54545454545455,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AV-OW-40",
+    "product_name": "RS7-AV-OW-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-MR-42",
+    "product_name": "RS6GT-MR-42",
+    "stock_available": 28,
+    "sales_last_30d": 14,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-C-44",
+    "product_name": "PHTKNIT-C-44",
+    "stock_available": 12,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-AW-45",
+    "product_name": "TN-RSX-AW-45",
+    "stock_available": 15,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-P-38",
+    "product_name": "RS8AVANT-P-38",
+    "stock_available": 28,
+    "sales_last_30d": 12,
+    "coverage_days": 70,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001015119",
+    "product_name": "7890001015119",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MochilaMinima",
+    "product_name": "MochilaMinima",
+    "stock_available": 16,
+    "sales_last_30d": 6,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-RSX-AB-40",
+    "product_name": "TN-RSX-AB-40",
+    "stock_available": 19,
+    "sales_last_30d": 10,
+    "coverage_days": 57,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-M-44",
+    "product_name": "RS3-M-44",
+    "stock_available": 4,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-RSX-MAR-42",
+    "product_name": "TN-RSX-MAR-42",
+    "stock_available": 24,
+    "sales_last_30d": 13,
+    "coverage_days": 55.38461538461538,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-B-46",
+    "product_name": "RS8AVANT-B-46",
+    "stock_available": 21,
+    "sales_last_30d": 5,
+    "coverage_days": 126,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-M-39",
+    "product_name": "RS6-M-39",
+    "stock_available": 12,
+    "sales_last_30d": 19,
+    "coverage_days": 18.947368421052634,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS8AVANT-AB-44",
+    "product_name": "RS8AVANT-AB-44",
+    "stock_available": 6,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MON-PTA",
+    "product_name": "MON-PTA",
+    "stock_available": 44,
+    "sales_last_30d": 6,
+    "coverage_days": 220,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451307",
+    "product_name": "7909795451307",
+    "stock_available": 5,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS3-M-43",
+    "product_name": "RS3-M-43",
+    "stock_available": 7,
+    "sales_last_30d": 3,
+    "coverage_days": 70,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-B-40",
+    "product_name": "911CR-B-40",
+    "stock_available": 14,
+    "sales_last_30d": 3,
+    "coverage_days": 140,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MON-PTO",
+    "product_name": "MON-PTO",
+    "stock_available": 45,
+    "sales_last_30d": 5,
+    "coverage_days": 270,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "TN-SUP-44",
+    "product_name": "TN-SUP-44",
+    "stock_available": 8,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-SUP-45",
+    "product_name": "TN-SUP-45",
+    "stock_available": 8,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8-C-39",
+    "product_name": "RS8-C-39",
+    "stock_available": 30,
+    "sales_last_30d": 8,
+    "coverage_days": 112.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-MR-43",
+    "product_name": "RS6AVANT-MR-43",
+    "stock_available": 37,
+    "sales_last_30d": 7,
+    "coverage_days": 158.57142857142856,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-B-43",
+    "product_name": "RS8AVANT-B-43",
+    "stock_available": 90,
+    "sales_last_30d": 29,
+    "coverage_days": 93.10344827586206,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MACAN-P-41",
+    "product_name": "MACAN-P-41",
+    "stock_available": 15,
+    "sales_last_30d": 8,
+    "coverage_days": 56.25,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-P-45",
+    "product_name": "KNITGT-P-45",
+    "stock_available": 4,
+    "sales_last_30d": 3,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911GT-COW-39",
+    "product_name": "911GT-COW-39",
+    "stock_available": 23,
+    "sales_last_30d": 2,
+    "coverage_days": 345,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-MR-39",
+    "product_name": "911CR-MR-39",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036275",
+    "product_name": "7890001036275",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-B-38",
+    "product_name": "911-B-38",
+    "stock_available": 12,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-P-45",
+    "product_name": "RS7AVANT-P-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS3-M-42",
+    "product_name": "RS3-M-42",
+    "stock_available": 9,
+    "sales_last_30d": 4,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8-C-43",
+    "product_name": "RS8-C-43",
+    "stock_available": 26,
+    "sales_last_30d": 7,
+    "coverage_days": 111.42857142857143,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-OW-37",
+    "product_name": "PHTSLIP-OW-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001013337",
+    "product_name": "7890001013337",
+    "stock_available": 188,
+    "sales_last_30d": 24,
+    "coverage_days": 235,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-OW-38",
+    "product_name": "PHTEASY-OW-38",
+    "stock_available": 4,
+    "sales_last_30d": 8,
+    "coverage_days": 15,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "TN-RSX-MAR-38",
+    "product_name": "TN-RSX-MAR-38",
+    "stock_available": 2,
+    "sales_last_30d": 4,
+    "coverage_days": 15,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNITGT-P-43",
+    "product_name": "KNITGT-P-43",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "OFC010M088",
+    "product_name": "OFC010M088",
+    "stock_available": 20,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-O-41",
+    "product_name": "RS8AVANT-O-41",
+    "stock_available": 104,
+    "sales_last_30d": 91,
+    "coverage_days": 34.285714285714285,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911-P-42",
+    "product_name": "911-P-42",
+    "stock_available": 24,
+    "sales_last_30d": 22,
+    "coverage_days": 32.72727272727273,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PHTEASY-M-46",
+    "product_name": "PHTEASY-M-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001013801",
+    "product_name": "7890001013801",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-B-45",
+    "product_name": "911-B-45",
+    "stock_available": 10,
+    "sales_last_30d": 1,
+    "coverage_days": 300,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-M-40",
+    "product_name": "RS6-M-40",
+    "stock_available": 11,
+    "sales_last_30d": 51,
+    "coverage_days": 6.470588235294118,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTSLIP-OW-45",
+    "product_name": "PHTSLIP-OW-45",
+    "stock_available": 10,
+    "sales_last_30d": 2,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AB-39",
+    "product_name": "RS7-AB-39",
+    "stock_available": 33,
+    "sales_last_30d": 7,
+    "coverage_days": 141.42857142857142,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911CR-C-41",
+    "product_name": "911CR-C-41",
+    "stock_available": 7,
+    "sales_last_30d": 2,
+    "coverage_days": 105,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-P-44",
+    "product_name": "PHTEASY-P-44",
+    "stock_available": 9,
+    "sales_last_30d": 5,
+    "coverage_days": 54,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-AB-38",
+    "product_name": "RS6GT-AB-38",
+    "stock_available": 9,
+    "sales_last_30d": 5,
+    "coverage_days": 54,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-M-37",
+    "product_name": "PHTEASY-M-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-V-45",
+    "product_name": "KNITGT-V-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-AB-40",
+    "product_name": "RS6AVANT-AB-40",
+    "stock_available": 14,
+    "sales_last_30d": 30,
+    "coverage_days": 14,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "MACAN-P-39",
+    "product_name": "MACAN-P-39",
+    "stock_available": 6,
+    "sales_last_30d": 3,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-C-46",
+    "product_name": "RS8AVANT-C-46",
+    "stock_available": 12,
+    "sales_last_30d": 12,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6AVANT-OW-38",
+    "product_name": "RS6AVANT-OW-38",
+    "stock_available": 11,
+    "sales_last_30d": 9,
+    "coverage_days": 36.66666666666667,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911CR-B-44",
+    "product_name": "911CR-B-44",
+    "stock_available": 4,
+    "sales_last_30d": 2,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451413",
+    "product_name": "7909795451413",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-C-38",
+    "product_name": "KNITGT-C-38",
+    "stock_available": 7,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-NOW-40",
+    "product_name": "911GT-NOW-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-OW-38",
+    "product_name": "RS6-OW-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001013825",
+    "product_name": "7890001013825",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-C-44",
+    "product_name": "RS8AVANT-C-44",
+    "stock_available": 38,
+    "sales_last_30d": 49,
+    "coverage_days": 23.26530612244898,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6-M-41",
+    "product_name": "RS6-M-41",
+    "stock_available": 0,
+    "sales_last_30d": 33,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "URUS-C-45",
+    "product_name": "URUS-C-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-B-40",
+    "product_name": "RS6-B-40",
+    "stock_available": 0,
+    "sales_last_30d": 59,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "106",
+    "product_name": "106",
+    "stock_available": 238,
+    "sales_last_30d": 7,
+    "coverage_days": 1020,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTEASY-P-45",
+    "product_name": "PHTEASY-P-45",
+    "stock_available": 8,
+    "sales_last_30d": 1,
+    "coverage_days": 240,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "Mochila-Note",
+    "product_name": "Mochila-Note",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MANHATTAN-PTO",
+    "product_name": "MANHATTAN-PTO",
+    "stock_available": 87,
+    "sales_last_30d": 67,
+    "coverage_days": 38.95522388059701,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "URUS-P-38",
+    "product_name": "URUS-P-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-B-44",
+    "product_name": "PHTEASY-B-44",
+    "stock_available": 11,
+    "sales_last_30d": 1,
+    "coverage_days": 330,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-B-45",
+    "product_name": "PHTSLIP-B-45",
+    "stock_available": 6,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CINTO-DF-100",
+    "product_name": "CINTO-DF-100",
+    "stock_available": 11,
+    "sales_last_30d": 22,
+    "coverage_days": 15.000000000000002,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "L911GT-P-41",
+    "product_name": "L911GT-P-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451369",
+    "product_name": "7909795451369",
+    "stock_available": 2,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-MR-45",
+    "product_name": "KNIT-MR-45",
+    "stock_available": 3,
+    "sales_last_30d": 4,
+    "coverage_days": 22.5,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-OW-45",
+    "product_name": "RS6AVANT-OW-45",
+    "stock_available": 5,
+    "sales_last_30d": 1,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCH094054",
+    "product_name": "MCH094054",
+    "stock_available": 17,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6-OW-42",
+    "product_name": "RS6-OW-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-B-39",
+    "product_name": "URUS-B-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-P-41",
+    "product_name": "PHTEASY-P-41",
+    "stock_available": 13,
+    "sales_last_30d": 20,
+    "coverage_days": 19.5,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTKNIT-P-41",
+    "product_name": "PHTKNIT-P-41",
+    "stock_available": 10,
+    "sales_last_30d": 10,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "KNITGT-B-39",
+    "product_name": "KNITGT-B-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-C-39",
+    "product_name": "RS7-C-39",
+    "stock_available": 59,
+    "sales_last_30d": 12,
+    "coverage_days": 147.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-OW-41",
+    "product_name": "RS6AVANT-OW-41",
+    "stock_available": 60,
+    "sales_last_30d": 18,
+    "coverage_days": 100,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-AB-43",
+    "product_name": "KNITGT-AB-43",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6-P-42",
+    "product_name": "RS6-P-42",
+    "stock_available": 0,
+    "sales_last_30d": 17,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "URUS-OW-42",
+    "product_name": "URUS-OW-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-SUP-41",
+    "product_name": "TN-SUP-41",
+    "stock_available": 6,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-OW-38",
+    "product_name": "PHTKNIT-OW-38",
+    "stock_available": 3,
+    "sales_last_30d": 1,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001036145",
+    "product_name": "7890001036145",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-TM-46",
+    "product_name": "RS6AVANT-TM-46",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-M-41",
+    "product_name": "KNITGT-M-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-B-38",
+    "product_name": "KNIT-B-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-B-44",
+    "product_name": "URUS-B-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-C-41",
+    "product_name": "PHTKNIT-C-41",
+    "stock_available": 22,
+    "sales_last_30d": 3,
+    "coverage_days": 220,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-O-42",
+    "product_name": "RS8AVANT-O-42",
+    "stock_available": 85,
+    "sales_last_30d": 78,
+    "coverage_days": 32.69230769230769,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6GT-MR-38",
+    "product_name": "RS6GT-MR-38",
+    "stock_available": 9,
+    "sales_last_30d": 4,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-B-46",
+    "product_name": "RS6AVANT-B-46",
+    "stock_available": 4,
+    "sales_last_30d": 12,
+    "coverage_days": 10,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "911CR-C-45",
+    "product_name": "911CR-C-45",
+    "stock_available": 6,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451260",
+    "product_name": "7909795451260",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-M-42",
+    "product_name": "MACAN-M-42",
+    "stock_available": 17,
+    "sales_last_30d": 23,
+    "coverage_days": 22.173913043478258,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-TM-43",
+    "product_name": "RS6AVANT-TM-43",
+    "stock_available": 2,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-P-43",
+    "product_name": "RS6AVANT-P-43",
+    "stock_available": 8,
+    "sales_last_30d": 17,
+    "coverage_days": 14.117647058823529,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "7890001036114",
+    "product_name": "7890001036114",
+    "stock_available": 4,
+    "sales_last_30d": 4,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "PHTEASY-OW-44",
+    "product_name": "PHTEASY-OW-44",
+    "stock_available": 11,
+    "sales_last_30d": 4,
+    "coverage_days": 82.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-M-43",
+    "product_name": "PHTSLIP-M-43",
+    "stock_available": 10,
+    "sales_last_30d": 6,
+    "coverage_days": 50,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-P-42",
+    "product_name": "CARRERA-P-42",
+    "stock_available": 2,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911GT-AB-40",
+    "product_name": "911GT-AB-40",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "LIMPADOR-SOLAD",
+    "product_name": "LIMPADOR-SOLAD",
+    "stock_available": 29,
+    "sales_last_30d": 24,
+    "coverage_days": 36.25,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6GT-OW-40",
+    "product_name": "RS6GT-OW-40",
+    "stock_available": 82,
+    "sales_last_30d": 31,
+    "coverage_days": 79.35483870967741,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-P-39",
+    "product_name": "KNITGT-P-39",
+    "stock_available": 11,
+    "sales_last_30d": 3,
+    "coverage_days": 110,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS3-AW-38",
+    "product_name": "RS3-AW-38",
+    "stock_available": 15,
+    "sales_last_30d": 2,
+    "coverage_days": 225,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-OW-44",
+    "product_name": "RS6AVANT-OW-44",
+    "stock_available": 19,
+    "sales_last_30d": 3,
+    "coverage_days": 190,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS7-AV-OW-45",
+    "product_name": "RS7-AV-OW-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "CARRERA-OW-44",
+    "product_name": "CARRERA-OW-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-AB-43",
+    "product_name": "RS7-AB-43",
+    "stock_available": 27,
+    "sales_last_30d": 12,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-V-40",
+    "product_name": "KNITGT-V-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-M-38",
+    "product_name": "RS7-M-38",
+    "stock_available": 25,
+    "sales_last_30d": 5,
+    "coverage_days": 150,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-C-40",
+    "product_name": "RS8AVANT-C-40",
+    "stock_available": 205,
+    "sales_last_30d": 195,
+    "coverage_days": 31.53846153846154,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "KNIT-P-38",
+    "product_name": "KNIT-P-38",
+    "stock_available": 42,
+    "sales_last_30d": 7,
+    "coverage_days": 180,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-B-38",
+    "product_name": "PHTSLIP-B-38",
+    "stock_available": 0,
+    "sales_last_30d": 3,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6AVANT-TM-39",
+    "product_name": "RS6AVANT-TM-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-P-39",
+    "product_name": "RS6AVANT-P-39",
+    "stock_available": 6,
+    "sales_last_30d": 20,
+    "coverage_days": 9,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "TN-RSX-PTO-44",
+    "product_name": "TN-RSX-PTO-44",
+    "stock_available": 12,
+    "sales_last_30d": 3,
+    "coverage_days": 120,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-AB-41",
+    "product_name": "911GT-AB-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-C-41",
+    "product_name": "RS8AVANT-C-41",
+    "stock_available": 203,
+    "sales_last_30d": 191,
+    "coverage_days": 31.884816753926703,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "631430546051",
+    "product_name": "631430546051",
+    "stock_available": 23,
+    "sales_last_30d": 9,
+    "coverage_days": 76.66666666666667,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-B-40",
+    "product_name": "RS8AVANT-B-40",
+    "stock_available": 99,
+    "sales_last_30d": 66,
+    "coverage_days": 44.99999999999999,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS3-P-43",
+    "product_name": "RS3-P-43",
+    "stock_available": 20,
+    "sales_last_30d": 3,
+    "coverage_days": 200,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "L911GT-P-39",
+    "product_name": "L911GT-P-39",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-B-41",
+    "product_name": "KNIT-B-41",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MCH094M055",
+    "product_name": "MCH094M055",
+    "stock_available": 8,
+    "sales_last_30d": 1,
+    "coverage_days": 240,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-P-43",
+    "product_name": "PHTKNIT-P-43",
+    "stock_available": 9,
+    "sales_last_30d": 4,
+    "coverage_days": 67.5,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MACAN-P-40",
+    "product_name": "MACAN-P-40",
+    "stock_available": 9,
+    "sales_last_30d": 7,
+    "coverage_days": 38.57142857142857,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6GT-MR-43",
+    "product_name": "RS6GT-MR-43",
+    "stock_available": 20,
+    "sales_last_30d": 2,
+    "coverage_days": 300,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7890001015126",
+    "product_name": "7890001015126",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-B-42",
+    "product_name": "RS6GT-B-42",
+    "stock_available": 38,
+    "sales_last_30d": 18,
+    "coverage_days": 63.333333333333336,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MACAN-P-44",
+    "product_name": "MACAN-P-44",
+    "stock_available": 2,
+    "sales_last_30d": 4,
+    "coverage_days": 15,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "URUS-P-40",
+    "product_name": "URUS-P-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-AB-44",
+    "product_name": "KNIT-AB-44",
+    "stock_available": 8,
+    "sales_last_30d": 3,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-M-45",
+    "product_name": "RS6GT-M-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-AB-40",
+    "product_name": "URUS-AB-40",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTSLIP-B-37",
+    "product_name": "PHTSLIP-B-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNIT-MR-41",
+    "product_name": "KNIT-MR-41",
+    "stock_available": 7,
+    "sales_last_30d": 29,
+    "coverage_days": 7.241379310344827,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNIT-MR-39",
+    "product_name": "KNIT-MR-39",
+    "stock_available": 24,
+    "sales_last_30d": 9,
+    "coverage_days": 80,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "2070",
+    "product_name": "2070",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-M-43",
+    "product_name": "RS7-M-43",
+    "stock_available": 23,
+    "sales_last_30d": 18,
+    "coverage_days": 38.333333333333336,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "MACAN-M-44",
+    "product_name": "MACAN-M-44",
+    "stock_available": 9,
+    "sales_last_30d": 6,
+    "coverage_days": 45,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KRAHEN-P-44",
+    "product_name": "KRAHEN-P-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-M-42",
+    "product_name": "RS6GT-M-42",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "TN-SUP-42",
+    "product_name": "TN-SUP-42",
+    "stock_available": 1,
+    "sales_last_30d": 1,
+    "coverage_days": 30,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "RS6GT-AB-43",
+    "product_name": "RS6GT-AB-43",
+    "stock_available": 26,
+    "sales_last_30d": 3,
+    "coverage_days": 260,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-NM-43",
+    "product_name": "RS6GT-NM-43",
+    "stock_available": 18,
+    "sales_last_30d": 4,
+    "coverage_days": 135,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCH-DUBLIN-PTO",
+    "product_name": "MCH-DUBLIN-PTO",
+    "stock_available": 11,
+    "sales_last_30d": 1,
+    "coverage_days": 330,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNIT-MR-43",
+    "product_name": "KNIT-MR-43",
+    "stock_available": 23,
+    "sales_last_30d": 9,
+    "coverage_days": 76.66666666666667,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-MR-41",
+    "product_name": "RS6GT-MR-41",
+    "stock_available": 23,
+    "sales_last_30d": 16,
+    "coverage_days": 43.125,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "7890001036350",
+    "product_name": "7890001036350",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-P-43",
+    "product_name": "URUS-P-43",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911CR-AB-41",
+    "product_name": "911CR-AB-41",
+    "stock_available": 0,
+    "sales_last_30d": 1,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "PHTSLIP-M-45",
+    "product_name": "PHTSLIP-M-45",
+    "stock_available": 11,
+    "sales_last_30d": 3,
+    "coverage_days": 110,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451246",
+    "product_name": "7909795451246",
+    "stock_available": 0,
+    "sales_last_30d": 2,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "URUS-AB-38",
+    "product_name": "URUS-AB-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7909795451338",
+    "product_name": "7909795451338",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS3-AW-44",
+    "product_name": "RS3-AW-44",
+    "stock_available": 11,
+    "sales_last_30d": 2,
+    "coverage_days": 165,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "7909795451390",
+    "product_name": "7909795451390",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6AVANT-TM-41",
+    "product_name": "RS6AVANT-TM-41",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS8AVANT-O-46",
+    "product_name": "RS8AVANT-O-46",
+    "stock_available": 17,
+    "sales_last_30d": 1,
+    "coverage_days": 510,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "MCH094M057",
+    "product_name": "MCH094M057",
+    "stock_available": 7,
+    "sales_last_30d": 1,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-CT-45",
+    "product_name": "RS8AVANT-CT-45",
+    "stock_available": 3,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "7890001036183",
+    "product_name": "7890001036183",
+    "stock_available": 18,
+    "sales_last_30d": 7,
+    "coverage_days": 77.14285714285714,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-MC-46",
+    "product_name": "RS8AVANT-MC-46",
+    "stock_available": 7,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTEASY-P-43",
+    "product_name": "PHTEASY-P-43",
+    "stock_available": 14,
+    "sales_last_30d": 7,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "KNITGT-M-45",
+    "product_name": "KNITGT-M-45",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7-AB-44",
+    "product_name": "RS7-AB-44",
+    "stock_available": 16,
+    "sales_last_30d": 7,
+    "coverage_days": 68.57142857142857,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-NM-45",
+    "product_name": "RS6GT-NM-45",
+    "stock_available": 4,
+    "sales_last_30d": 3,
+    "coverage_days": 40,
+    "risk_status": "Atencao"
+  },
+  {
+    "sku": "911CR-OW-44",
+    "product_name": "911CR-OW-44",
+    "stock_available": 6,
+    "sales_last_30d": 1,
+    "coverage_days": 180,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-M-43",
+    "product_name": "CARRERA-M-43",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-AB-42",
+    "product_name": "911-AB-42",
+    "stock_available": 1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS6GT-AB-45",
+    "product_name": "RS6GT-AB-45",
+    "stock_available": 9,
+    "sales_last_30d": 3,
+    "coverage_days": 90,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-B-43",
+    "product_name": "RS6GT-B-43",
+    "stock_available": 31,
+    "sales_last_30d": 14,
+    "coverage_days": 66.42857142857143,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "911GT-COW-45",
+    "product_name": "911GT-COW-45",
+    "stock_available": 7,
+    "sales_last_30d": 1,
+    "coverage_days": 210,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-M-44",
+    "product_name": "RS6-M-44",
+    "stock_available": 0,
+    "sales_last_30d": 11,
+    "coverage_days": 0,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS7-P-43",
+    "product_name": "RS7-P-43",
+    "stock_available": 38,
+    "sales_last_30d": 9,
+    "coverage_days": 126.66666666666667,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS8AVANT-P-45",
+    "product_name": "RS8AVANT-P-45",
+    "stock_available": 13,
+    "sales_last_30d": 5,
+    "coverage_days": 78,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6GT-M-44",
+    "product_name": "RS6GT-M-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "KNITGT-AB-41",
+    "product_name": "KNITGT-AB-41",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "911-P-38",
+    "product_name": "911-P-38",
+    "stock_available": 18,
+    "sales_last_30d": 4,
+    "coverage_days": 135,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTSLIP-OW-43",
+    "product_name": "PHTSLIP-OW-43",
+    "stock_available": 7,
+    "sales_last_30d": 3,
+    "coverage_days": 70,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6-B-41",
+    "product_name": "RS6-B-41",
+    "stock_available": 4,
+    "sales_last_30d": 73,
+    "coverage_days": 1.6438356164383563,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "RS6-P-43",
+    "product_name": "RS6-P-43",
+    "stock_available": 1,
+    "sales_last_30d": 12,
+    "coverage_days": 2.5,
+    "risk_status": "Critico"
+  },
+  {
+    "sku": "KNITGT-C-40",
+    "product_name": "KNITGT-C-40",
+    "stock_available": 9,
+    "sales_last_30d": 5,
+    "coverage_days": 54,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "RS6AVANT-M-42",
+    "product_name": "RS6AVANT-M-42",
+    "stock_available": 32,
+    "sales_last_30d": 16,
+    "coverage_days": 60,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "CARRERA-V-38",
+    "product_name": "CARRERA-V-38",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "RS7AVANT-OW-40",
+    "product_name": "RS7AVANT-OW-40",
+    "stock_available": 30,
+    "sales_last_30d": 11,
+    "coverage_days": 81.81818181818183,
+    "risk_status": "Saudavel"
+  },
+  {
+    "sku": "PHTKNIT-MR-44",
+    "product_name": "PHTKNIT-MR-44",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "MACAN-B-44",
+    "product_name": "MACAN-B-44",
+    "stock_available": 16,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "PHTKNIT-C-37",
+    "product_name": "PHTKNIT-C-37",
+    "stock_available": 0,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
+  },
+  {
+    "sku": "URUS-OW-41",
+    "product_name": "URUS-OW-41",
+    "stock_available": -1,
+    "sales_last_30d": 0,
+    "coverage_days": null,
+    "risk_status": "Sem giro"
   }
 ]
