@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.7 - 2026-07-01
+
+- Otimizado salvamento, edicao e exclusao de eventos manuais para nao esperar commit no GitHub a cada interacao.
+- Eventos interativos passam a gravar na Google Sheet e atualizar o cache em memoria; exportacao para GitHub fica no fluxo D-1/manual.
+- Adicionado estado de exclusao no painel de eventos manuais, bloqueando cliques repetidos e exibindo `Excluindo...`.
+- Ajustado fallback de exclusao para nao remover localmente quando a API compartilhada falhar.
+- Atualizado o cache bust dos assets para `v=0.4.7`.
+
 ## 0.4.6 - 2026-07-01
 
 - Fechada automaticamente a aba de eventos manuais apos salvamento bem-sucedido.

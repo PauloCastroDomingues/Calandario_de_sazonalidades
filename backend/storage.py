@@ -15,7 +15,8 @@ def utc_now() -> str:
 
 
 def is_active_event(event: dict[str, Any]) -> bool:
-    return str(event.get("status", "")).lower() not in {"excluido", "excluído"} and not event.get("deleted_at")
+    status = str(event.get("status", "")).strip().lower()
+    return not status.startswith("exclu") and not event.get("deleted_at")
 
 
 def public_event(event: dict[str, Any]) -> dict[str, Any]:
@@ -151,6 +152,7 @@ class AppsScriptManualEventStore:
                 "action": "create",
                 "event": payload,
                 "user": user,
+                "sync_github": False,
             }
         )
         return public_event(response.get("event") or payload)
@@ -162,6 +164,7 @@ class AppsScriptManualEventStore:
                 "event_id": event_id,
                 "event": payload,
                 "user": user,
+                "sync_github": False,
             }
         )
         event = response.get("event")
@@ -173,6 +176,7 @@ class AppsScriptManualEventStore:
                 "action": "delete",
                 "event_id": event_id,
                 "user": user,
+                "sync_github": False,
             }
         )
         event = response.get("event")

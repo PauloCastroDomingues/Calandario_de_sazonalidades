@@ -33,7 +33,7 @@ refresh_service = RefreshService(settings, event_store)
 
 app = FastAPI(
     title="Calendário Comercial Reise API",
-    version="0.4.6",
+    version="0.4.7",
     description="Backend central para calendário, eventos manuais e cache de dados comerciais.",
 )
 
@@ -112,7 +112,7 @@ async def api_events() -> list[dict[str, Any]]:
 async def api_create_event(payload: ManualEventPayload, request: Request) -> dict[str, Any]:
     ensure_event_mutations_enabled()
     event = event_store.create_event(payload_to_dict(payload), resolve_user(request, payload.responsavel))
-    await refresh_service.refresh(reason="event_created")
+    refresh_service.apply_event_change(event, reason="event_created")
     return event
 
 
@@ -122,7 +122,7 @@ async def api_update_event(event_id: str, payload: ManualEventPayload, request: 
     event = event_store.update_event(event_id, payload_to_dict(payload), resolve_user(request, payload.responsavel))
     if not event:
         raise HTTPException(status_code=404, detail="Evento manual não encontrado.")
-    await refresh_service.refresh(reason="event_updated")
+    refresh_service.apply_event_change(event, reason="event_updated")
     return event
 
 
@@ -132,7 +132,7 @@ async def api_delete_event(event_id: str, request: Request) -> dict[str, Any]:
     event = event_store.delete_event(event_id, resolve_user(request, None))
     if not event:
         raise HTTPException(status_code=404, detail="Evento manual não encontrado.")
-    await refresh_service.refresh(reason="event_deleted")
+    refresh_service.apply_event_change(event, reason="event_deleted")
     return event
 
 

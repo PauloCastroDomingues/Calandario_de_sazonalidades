@@ -114,6 +114,7 @@ const state = {
   backendStatus: null,
   isRefreshingNow: false,
   isSavingManualEvent: false,
+  deletingManualEventId: null,
   loadedAt: null,
   lastEventApiError: "",
 };
@@ -2401,7 +2402,7 @@ async function saveManualEventFromForm(event) {
     if (canUseSharedApi) {
       const saved = await saveManualEventWithApi(manualEvent, editingId);
       if (saved) {
-        await reloadDataAfterManualEventChange();
+        upsertManualEventLocally(saved);
         closeManualFormAfterSave(form, saved);
         const message = "Evento salvo na base compartilhada.";
         setManualStatus(message);
@@ -2496,6 +2497,23 @@ function apiManualEventPayload(manualEvent) {
   };
 }
 
+function upsertManualEventLocally(event) {
+  const normalized = normalizeManualEventsList([event])[0];
+  if (!normalized) return;
+  state.data.eventosManuais = mergeManualEvents(
+    (state.data.eventosManuais || []).filter((item) => item.id !== normalized.id && item.event_id !== normalized.event_id),
+    [normalized]
+  );
+  buildIndexes();
+  populateSelectorsPreservingSelection();
+}
+
+function removeManualEventLocally(id) {
+  state.data.eventosManuais = (state.data.eventosManuais || []).filter((event) => event.id !== id && event.event_id !== id);
+  buildIndexes();
+  populateSelectorsPreservingSelection();
+}
+
 async function reloadDataAfterManualEventChange() {
   await loadData();
   buildIndexes();
@@ -2539,6 +2557,7 @@ function renderManualEventsList() {
 }
 
 function renderManualEventListItem(event) {
+  const isDeleting = state.deletingManualEventId === event.id;
   return `
     <article class="manual-month-item">
       <div>
@@ -2547,8 +2566,8 @@ function renderManualEventListItem(event) {
         <span>Prioridade: ${event.prioridade || "-"}${event.responsavel ? ` · Responsável: ${event.responsavel}` : ""}</span>
       </div>
       <div class="manual-event-actions">
-        <button class="secondary-button small-button" type="button" data-action="edit-manual" data-id="${event.id}">Editar</button>
-        <button class="secondary-button small-button danger-button" type="button" data-action="delete-manual" data-id="${event.id}">Excluir</button>
+        <button class="secondary-button small-button" type="button" data-action="edit-manual" data-id="${event.id}" ${isDeleting ? "disabled" : ""}>Editar</button>
+        <button class="secondary-button small-button danger-button" type="button" data-action="delete-manual" data-id="${event.id}" ${isDeleting ? "disabled" : ""}>${isDeleting ? "Excluindo..." : "Excluir"}</button>
       </div>
     </article>
   `;
@@ -2566,6 +2585,7 @@ function getManualEventsForDisplayedMonth() {
 function handleManualEventsListClick(event) {
   const button = event.target.closest("[data-action]");
   if (!button) return;
+  if (state.deletingManualEventId || button.disabled) return;
   const id = button.dataset.id;
   if (button.dataset.action === "edit-manual") {
     editManualEvent(id);
@@ -2602,46 +2622,64 @@ async function deleteManualEvent(id) {
   if (!manualEvent) return;
   if (!window.confirm("Tem certeza que deseja excluir este evento manual?")) return;
 
-  if (state.apiAvailable) {
-    const deleted = await deleteManualEventWithApi(id);
-    if (deleted) {
-      if (state.editingManualEventId === id) {
-        resetManualEventForm();
-        document.getElementById("manualEventForm").hidden = true;
+  state.deletingManualEventId = id;
+  setManualStatus("Excluindo evento...");
+  renderManualEventsList();
+
+  try {
+    const canUseSharedApi = state.apiAvailable || (await ensureSharedEventsApiReady());
+    if (canUseSharedApi) {
+      const deleted = await deleteManualEventWithApi(id);
+      if (deleted) {
+        if (state.editingManualEventId === id) {
+          resetManualEventForm();
+          document.getElementById("manualEventForm").hidden = true;
+        }
+        removeManualEventLocally(id);
+        setManualStatus("Evento manual excluido da base compartilhada.");
+        setDataStatusMessage("Evento manual excluido da base compartilhada.");
+        renderDashboard();
+        return;
       }
-      await reloadDataAfterManualEventChange();
-      setManualStatus("Evento manual excluído da base compartilhada.");
-      renderDashboard();
+      setManualStatus(
+        `Nao foi possivel excluir na base compartilhada. O evento continua ativo. ${state.lastEventApiError || "Recarregue a pagina e tente novamente."}`
+      );
       return;
     }
-    setManualStatus("API indisponível. Excluindo apenas do fallback local.");
-  }
 
-  state.data.eventosManuais = (state.data.eventosManuais || []).filter((event) => event.id !== id);
-  state.deletedManualEventIds = [...new Set([...(state.deletedManualEventIds || []), id])];
-  if (state.editingManualEventId === id) {
-    resetManualEventForm();
-    document.getElementById("manualEventForm").hidden = true;
+    state.data.eventosManuais = (state.data.eventosManuais || []).filter((event) => event.id !== id);
+    state.deletedManualEventIds = [...new Set([...(state.deletedManualEventIds || []), id])];
+    if (state.editingManualEventId === id) {
+      resetManualEventForm();
+      document.getElementById("manualEventForm").hidden = true;
+    }
+    buildIndexes();
+    persistManualEvents();
+    persistDeletedManualEventIds();
+    setManualStatus("Evento manual excluido do fallback local.");
+    renderDashboard();
+  } finally {
+    state.deletingManualEventId = null;
+    renderManualEventsList();
   }
-  buildIndexes();
-  persistManualEvents();
-  persistDeletedManualEventIds();
-  setManualStatus("Evento manual excluído.");
-  renderDashboard();
 }
 
 async function deleteManualEventWithApi(id) {
   try {
+    state.lastEventApiError = "";
     const response = await fetch(`${API_BASE}/api/events/${encodeURIComponent(id)}`, { method: "DELETE" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      throw new Error(payload.detail || `HTTP ${response.status}`);
+    }
     return await response.json();
   } catch (error) {
+    state.lastEventApiError = error.message || "Falha ao chamar DELETE /api/events.";
     state.apiAvailable = false;
     renderBackendStatus();
     return null;
   }
 }
-
 function exportManualEvents() {
   const payload = JSON.stringify(state.data.eventosManuais || [], null, 2);
   const blob = new Blob([payload], { type: "application/json;charset=utf-8" });

@@ -100,6 +100,41 @@ class RefreshService:
             finally:
                 self.is_refreshing = False
 
+    def apply_event_change(self, event: dict[str, Any], reason: str = "event_changed") -> None:
+        if not self.cache:
+            return
+
+        event_id = str(event.get("event_id") or event.get("id") or "")
+        if not event_id:
+            return
+
+        current_events = [
+            item
+            for item in self.cache.get("eventos_manuais", [])
+            if str(item.get("event_id") or item.get("id") or "") != event_id
+        ]
+
+        if self._is_active_event(event):
+            current_events.append(event)
+
+        current_events = sorted(current_events, key=lambda item: str(item.get("data_inicio") or item.get("data") or ""))
+        self.cache["eventos_manuais"] = current_events
+        self.cache["analytics"] = build_analytics(self.cache)
+        self.cache["atualizado_em"] = iso_now()
+        self.updated_at = self.cache["atualizado_em"]
+        self.next_update_at = self._next_update_iso()
+        self.last_error = None
+        self.source_status = {
+            **self.source_status,
+            "eventos_manuais": f"{len(current_events)} ativo(s)",
+            "analytics": "ok",
+            "reason": reason,
+            "events_storage": self.settings.events_storage,
+            "event_mutations_enabled": self.settings.event_mutations_enabled,
+            "refresh_loop_enabled": self.settings.enable_refresh_loop,
+            "consolidado": "cache em memoria atualizado por evento manual",
+        }
+
     async def refresh_loop(self) -> None:
         while not self._stop.is_set():
             await asyncio.sleep(max(60, self.settings.refresh_interval_minutes * 60))
@@ -139,6 +174,10 @@ class RefreshService:
             return "ok"
         except OSError as error:
             return f"cache em memória; não foi possível gravar consolidado.json ({error})"
+
+    def _is_active_event(self, event: dict[str, Any]) -> bool:
+        status = str(event.get("status") or "").strip().lower()
+        return not status.startswith("exclu") and not event.get("deleted_at")
 
     def _next_update_iso(self) -> str:
         next_update = datetime.now(timezone.utc) + timedelta(minutes=self.settings.refresh_interval_minutes)
