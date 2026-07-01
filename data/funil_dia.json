@@ -923,8 +923,8 @@
     "view_item": 10950,
     "add_to_cart": 900,
     "begin_checkout": 783,
-    "purchase": 133,
-    "conversion_rate": 0.010448581978160107
+    "purchase": 132,
+    "conversion_rate": 0.010370021211407024
   },
   {
     "data": "2026-05-03",
@@ -1454,7 +1454,7 @@
     "view_item": 10430,
     "add_to_cart": 678,
     "begin_checkout": 573,
-    "purchase": 118,
-    "conversion_rate": 0.009898498448116768
+    "purchase": 119,
+    "conversion_rate": 0.009982384028185555
   }
 ]
