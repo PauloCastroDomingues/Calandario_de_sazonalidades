@@ -225,6 +225,19 @@ Os dados estao atualizados?
 Os dados estao confiaveis o suficiente para decisao?
 ```
 
+### Validacao contra BigQuery
+
+Antes de apresentar o MVP como base confiavel, valide os snapshots contra BigQuery com:
+
+```bat
+python scripts\validar_snapshot_bigquery.py --start-date 2026-06-01 --end-date 2026-06-30 --dry-run
+python scripts\validar_snapshot_bigquery.py --start-date 2026-06-01 --end-date 2026-06-30
+```
+
+O primeiro comando estima bytes. O segundo compara os agregados dos JSONs com BigQuery e gera um relatorio em `docs/validacao/`.
+
+O passo a passo esta em `docs/VALIDACAO_BIGQUERY.md`.
+
 ### Privacidade dos dados
 
 Os JSONs em `data/` carregam dados comerciais. Para uso interno, mantenha o repositório e o deploy com acesso controlado. Não publique este projeto como site público sem antes trocar a estratégia de distribuição dos dados ou adicionar uma camada de autenticação.

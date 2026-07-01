@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.1 - 2026-07-01
+
+- Adicionado script `scripts/validar_snapshot_bigquery.py` para homologar JSONs versionados contra BigQuery.
+- Incluido modo `--dry-run` para estimar bytes antes de comparar valores.
+- Criada documentacao `docs/VALIDACAO_BIGQUERY.md` com fluxo de validacao, comandos e interpretacao.
+
 ## 0.5.0 - 2026-07-01
 
 - Adicionada camada de qualidade dos dados no backend, com score, frescor D-1, fontes, linhas e alertas.
