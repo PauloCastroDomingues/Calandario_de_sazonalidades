@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "event_id": "manual_6cb975c45fb1479f",
+    "data_inicio": "2026-07-15",
+    "data_fim": "2026-07-15",
+    "titulo": "TESTE TECNICO CODEX UI",
+    "tipo": "Campanha",
+    "categoria": "diagnostico",
+    "produto_relacionado": "",
+    "campanha_relacionada": "",
+    "prioridade": "Baixa",
+    "responsavel": "Codex",
+    "observacao": "Teste temporario de persistencia via API",
+    "status": "Ativo",
+    "created_by": "Codex",
+    "created_at": "2026-07-01T13:15:46.071Z",
+    "updated_by": "Codex",
+    "updated_at": "2026-07-01T13:15:46.071Z",
+    "deleted_at": "",
+    "id": "manual_6cb975c45fb1479f"
+  }
+]
