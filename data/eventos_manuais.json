@@ -118,5 +118,25 @@
     "updated_at": "2026-07-01T13:51:44.671Z",
     "deleted_at": "",
     "id": "manual_91c540db5b5f481d"
+  },
+  {
+    "event_id": "manual_0c8456313859433f",
+    "data_inicio": "2026-07-01",
+    "data_fim": "2026-07-04",
+    "titulo": "um lançamento qualquer",
+    "tipo": "Campanha",
+    "categoria": "Campanha",
+    "produto_relacionado": "321",
+    "campanha_relacionada": "741",
+    "prioridade": "Baixa",
+    "responsavel": "2345678",
+    "observacao": "Apenas um teste qualquer",
+    "status": "Concluído",
+    "created_by": "2345678",
+    "created_at": "2026-07-01T14:17:56.043Z",
+    "updated_by": "2345678",
+    "updated_at": "2026-07-01T14:17:56.043Z",
+    "deleted_at": "",
+    "id": "manual_0c8456313859433f"
   }
 ]
