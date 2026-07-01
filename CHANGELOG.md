@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.4 - 2026-07-01
+
+- Reforcada a persistencia de eventos manuais no frontend, buscando eventos atuais diretamente em `/api/events`.
+- Ajustado o salvamento para nao cair silenciosamente em fallback local quando a API compartilhada falhar.
+- Adicionado `API_BASE` de producao para previews locais fora do FastAPI e CORS controlado para Vercel/localhost.
+- Atualizado o cache bust dos assets para `v=0.4.4`.
+
 ## 0.4.3 - 2026-06-30
 
 - Adicionada persistencia compartilhada de eventos manuais via Google Sheets e Apps Script.

@@ -13,7 +13,8 @@ const DATA_FILES = {
 
 const MANUAL_EVENTS_STORAGE_KEY = "reise_eventos_manuais";
 const MANUAL_EVENTS_DELETED_KEY = "reise_eventos_manuais_excluidos";
-const API_BASE = "";
+const PRODUCTION_API_BASE = "https://calendario-reise.vercel.app";
+const API_BASE = resolveApiBase();
 
 const COMPARISON_LABELS = {
   previousPeriod: "Período anterior",
@@ -113,6 +114,7 @@ const state = {
   backendStatus: null,
   isRefreshingNow: false,
   loadedAt: null,
+  lastEventApiError: "",
 };
 
 document.addEventListener("DOMContentLoaded", init);
@@ -237,6 +239,18 @@ function bindControls() {
   document.getElementById("exportManualEventsButton").addEventListener("click", exportManualEvents);
   document.getElementById("importManualEventsInput").addEventListener("change", importManualEvents);
   document.getElementById("manualEventsList").addEventListener("click", handleManualEventsListClick);
+}
+
+function resolveApiBase() {
+  const location = window.location;
+  const hostname = location.hostname;
+  const port = location.port;
+
+  if (location.protocol === "file:") return PRODUCTION_API_BASE;
+  if ((hostname === "localhost" || hostname === "127.0.0.1") && port !== "8765") {
+    return PRODUCTION_API_BASE;
+  }
+  return "";
 }
 
 function toggleMenu(menuName) {
@@ -414,6 +428,19 @@ async function loadData() {
 async function loadDataFromApi() {
   try {
     const response = await fetch(`${API_BASE}/api/calendar-data`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    const events = await loadManualEventsFromApi();
+    if (events) payload.eventos_manuais = events;
+    return payload;
+  } catch (error) {
+    return null;
+  }
+}
+
+async function loadManualEventsFromApi() {
+  try {
+    const response = await fetch(`${API_BASE}/api/events`, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.json();
   } catch (error) {
@@ -2365,7 +2392,8 @@ async function saveManualEventFromForm(event) {
     status: document.getElementById("manualStatusField").value,
   };
 
-  if (state.apiAvailable) {
+  const canUseSharedApi = state.apiAvailable || (await ensureSharedEventsApiReady());
+  if (canUseSharedApi) {
     const saved = await saveManualEventWithApi(manualEvent, editingId);
     if (saved) {
       await reloadDataAfterManualEventChange();
@@ -2374,7 +2402,10 @@ async function saveManualEventFromForm(event) {
       renderDashboard();
       return;
     }
-    setManualStatus("API indisponível. Salvando no fallback local desta sessão.");
+    setManualStatus(
+      `Não foi possível salvar na base compartilhada. O evento não foi gravado. ${state.lastEventApiError || "Recarregue a página e tente novamente."}`
+    );
+    return;
   }
 
   state.data.eventosManuais = editingId
@@ -2395,6 +2426,7 @@ async function saveManualEventFromForm(event) {
 
 async function saveManualEventWithApi(manualEvent, editingId) {
   try {
+    state.lastEventApiError = "";
     const url = editingId ? `${API_BASE}/api/events/${encodeURIComponent(editingId)}` : `${API_BASE}/api/events`;
     const method = editingId ? "PUT" : "POST";
     const response = await fetch(url, {
@@ -2402,13 +2434,22 @@ async function saveManualEventWithApi(manualEvent, editingId) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(apiManualEventPayload(manualEvent)),
     });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      throw new Error(payload.detail || `HTTP ${response.status}`);
+    }
     return await response.json();
   } catch (error) {
+    state.lastEventApiError = error.message || "Falha ao chamar /api/events.";
     state.apiAvailable = false;
     renderBackendStatus();
     return null;
   }
+}
+
+async function ensureSharedEventsApiReady() {
+  await refreshBackendStatus(true);
+  return state.apiAvailable;
 }
 
 function apiManualEventPayload(manualEvent) {

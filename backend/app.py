@@ -4,6 +4,7 @@ import asyncio
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
@@ -32,8 +33,24 @@ refresh_service = RefreshService(settings, event_store)
 
 app = FastAPI(
     title="Calendário Comercial Reise API",
-    version="0.4.0",
+    version="0.4.4",
     description="Backend central para calendário, eventos manuais e cache de dados comerciais.",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://calendario-reise.vercel.app",
+        "http://localhost:5500",
+        "http://127.0.0.1:5500",
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+        "http://localhost:8001",
+        "http://127.0.0.1:8001",
+    ],
+    allow_origin_regex=r"https://.*\.vercel\.app",
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["*"],
 )
 
 app.mount("/src", StaticFiles(directory=settings.project_root / "src"), name="src")
