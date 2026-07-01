@@ -51,6 +51,31 @@ O frontend não precisa de credencial BigQuery. Ele consome apenas a API do back
 
 Nesta etapa, o backend le os JSONs existentes e pode manter eventos manuais de duas formas: localmente em `data/eventos_manuais.json` para desenvolvimento, ou em Google Sheets via Apps Script para uso compartilhado sem custo.
 
+## Estado operacional atual
+
+Em `01/07/2026`, o MVP esta operando com este desenho:
+
+```text
+BigQuery -> Apps Script -> data/*.json no GitHub -> Vercel -> FastAPI -> dashboard
+Google Sheets -> Apps Script Web App -> FastAPI -> eventos manuais compartilhados
+```
+
+O que ja esta funcionando:
+
+- a carga D-1 via Apps Script consulta BigQuery e cria commit com os JSONs em `data/`;
+- o deploy de producao esta apontado para `https://calendario-reise.vercel.app`;
+- o backend no Vercel esta configurado com `EVENTS_STORAGE=apps_script`;
+- `GET /api/status` deve retornar `events_storage = apps_script` e `event_mutations_enabled = true`;
+- `GET /api/events` lista os eventos manuais ativos gravados na planilha;
+- `POST /api/events`, `PUT /api/events/{id}` e `DELETE /api/events/{id}` passam pelo backend e gravam no Apps Script/Google Sheets.
+
+O Apps Script continua sendo a ponte de baixo custo. Ele tem duas responsabilidades:
+
+- atualizar dados analiticos D-1 vindos do BigQuery;
+- receber, editar, excluir logicamente e exportar eventos manuais vindos do dashboard.
+
+No Vercel, o filesystem e temporario/somente leitura para escrita persistente. Por isso, o arquivo `data/consolidado.json` pode falhar ao ser regravado em producao sem quebrar o dashboard: o backend continua servindo o consolidado em memoria e os JSONs versionados no GitHub seguem como fonte de snapshot.
+
 ## Atualização dos dados
 
 O backend atualiza o cache ao iniciar e depois a cada 15 minutos. O topo do dashboard mostra:
@@ -276,7 +301,11 @@ Campos disponíveis: título, tipo, data início, data fim, produto relacionado,
 
 Ao salvar com a API ativa, o evento fica gravado na base compartilhada do backend e aparece para todos os usuarios. Eventos com mais de um dia marcam todo o intervalo entre `data_inicio` e `data_fim`.
 
-Para uso compartilhado sem custo, configure `EVENTS_STORAGE=apps_script`. Nesse modo, a Google Sheet vira a fonte de verdade dos eventos manuais, o Apps Script atualiza `data/eventos_manuais.json` no GitHub e o Vercel publica o snapshot atualizado.
+Para uso compartilhado sem custo, configure `EVENTS_STORAGE=apps_script`. Nesse modo, a Google Sheet vira a fonte de verdade dos eventos manuais. O dashboard envia as criacoes/edicoes/exclusoes para o backend, o backend faz proxy para o Web App do Apps Script, e o Apps Script grava na planilha.
+
+O `localStorage` do navegador e apenas fallback. Se o dashboard estiver em modo local, o evento pode aparecer na hora e sumir quando a pagina for recarregada, porque ele nao foi salvo na planilha compartilhada.
+
+Na producao correta, use `https://calendario-reise.vercel.app` e confira no topo/status do dashboard se a API esta ativa. Ao salvar, a mensagem esperada e `Evento salvo na base compartilhada.`. Se aparecer fallback local, revise cache, URL acessada e variaveis do Vercel.
 
 O passo a passo completo e a explicacao da logica estao em `docs/EVENTOS_MANUAIS_APPS_SCRIPT.md`.
 
@@ -304,28 +333,62 @@ data/eventos_manuais.json
 
 ## Variáveis de ambiente
 
-Variáveis preparadas para execução local, Cloud Run e futura integração BigQuery:
+### Backend local
 
 ```text
 BQ_PROJECT_ID=reise-ssot
 BQ_CREDENTIALS_PATH=credentials/reise-bigquery-sa.json
 REFRESH_INTERVAL_MINUTES=15
-EVENTS_STORAGE=bigquery
-EVENTS_DATASET=app_calendar
-EVENTS_TABLE=manual_events
-EVENTS_APPS_SCRIPT_URL=https://script.google.com/macros/s/<deploy_id>/exec
+EVENTS_STORAGE=local
 PORT=8765
 ```
 
-Para desenvolvimento local, use `EVENTS_STORAGE=local` ou deixe a variavel ausente. Para uso compartilhado sem custo, use:
+Para desenvolvimento local, use `EVENTS_STORAGE=local` ou deixe a variavel ausente. Nesse modo, os eventos ficam em `data/eventos_manuais.json` e nao viram base compartilhada.
+
+### Vercel producao
+
+No Vercel, as variaveis de eventos devem ficar em `Project Settings > Environment Variables`:
 
 ```text
 EVENTS_STORAGE=apps_script
-EVENTS_APPS_SCRIPT_URL=<url_do_web_app_do_apps_script>
+EVENTS_APPS_SCRIPT_URL=https://script.google.com/macros/s/<deploy_id>/exec
 EVENT_MUTATIONS_ENABLED=1
+ENABLE_REFRESH_LOOP=0
 ```
 
-Quando `EVENTS_STORAGE=apps_script`, o backend faz proxy para o Apps Script, que grava na Google Sheet e exporta `data/eventos_manuais.json` para o GitHub. Quando `EVENTS_STORAGE=bigquery`, a interface continua apontando conceitualmente para `app_calendar.manual_events`, mas a escrita real em BigQuery segue fora do MVP de custo zero.
+Depois de alterar variaveis no Vercel, rode um novo deploy de producao. O comando usado no projeto e:
+
+```bat
+npx vercel --prod
+```
+
+Valide a producao com:
+
+```text
+https://calendario-reise.vercel.app/api/status
+https://calendario-reise.vercel.app/api/events
+```
+
+O `/api/status` precisa indicar `events_storage = apps_script` e `event_mutations_enabled = true`.
+
+### Propriedades do Apps Script
+
+No Apps Script, as variaveis ficam em `Configurações do projeto > Propriedades do script`:
+
+```text
+BQ_PROJECT_ID=reise-ssot
+BQ_MAX_BYTES_BILLED=3221225472
+LOOKBACK_DAYS=760
+GITHUB_OWNER=PauloCastroDomingues
+GITHUB_REPO=Calendario_de_sazonalidades
+GITHUB_BRANCH=main
+GITHUB_TOKEN=<token_com_permissao_de_contents_write>
+EVENTS_SPREADSHEET_ID=<id_da_planilha_de_eventos>
+```
+
+Nao coloque token no codigo, no README, no frontend ou no Vercel se ele for usado apenas pelo Apps Script. O token do GitHub fica somente nas propriedades do Apps Script.
+
+Quando `EVENTS_STORAGE=apps_script`, o backend faz proxy para o Apps Script, que grava na Google Sheet e tambem pode exportar `data/eventos_manuais.json` para o GitHub. Quando `EVENTS_STORAGE=bigquery`, a interface continua apontando conceitualmente para `app_calendar.manual_events`, mas a escrita real em BigQuery segue fora do MVP de custo zero.
 
 Schema sugerido para `app_calendar.manual_events`:
 
@@ -381,6 +444,32 @@ Para manter custo zero:
 
 No Vercel, o dashboard consegue ler os JSONs versionados e a API FastAPI. A escrita compartilhada de eventos manuais deve usar `EVENTS_STORAGE=apps_script`; sem essa configuracao, o frontend cai para o fallback local do navegador e permite exportar/importar `eventos_manuais.json`.
 
+### Checklist de validacao em producao
+
+Use esta ordem quando um evento manual for salvo e sumir ao recarregar:
+
+1. Abra a URL oficial: `https://calendario-reise.vercel.app`.
+2. Faca hard refresh no navegador: `Ctrl + Shift + R`.
+3. Acesse `https://calendario-reise.vercel.app/api/status`.
+4. Confirme que aparece `events_storage = apps_script`.
+5. Confirme que aparece `event_mutations_enabled = true`.
+6. Acesse `https://calendario-reise.vercel.app/api/events`.
+7. Crie um evento no dashboard e confira se ele aparece na planilha `eventos_manuais`.
+8. Se o evento aparecer na tela mas nao aparecer na planilha, o navegador provavelmente esta em fallback local.
+9. Se a API responde certo, mas a tela nao, limpe cache ou teste em aba anonima.
+
+O Apps Script tambem tem um healthcheck proprio:
+
+```text
+https://script.google.com/macros/s/<deploy_id>/exec?action=health
+```
+
+A resposta esperada e:
+
+```json
+{"success":true,"storage":"google_sheets","sheet_configured":true}
+```
+
 ## Cloud Run
 
 O projeto já inclui `Dockerfile`. Build local:
@@ -395,25 +484,28 @@ No Cloud Run, configure as variáveis de ambiente e monte/disponibilize a creden
 ## Arquivos em data/
 
 - `calendario_br.json`: feriados, datas comerciais, sazonalidades e campanhas.
-- `kpis_dia.json`: receita, pedidos, ticket médio, sessões, conversão, investimento e ROAS.
-- `funil_dia.json`: sessões e etapas do funil.
-- `produtos_dia.json`: produtos destaque e produtos em queda.
-- `campanhas_dia.json`: campanhas pagas por plataforma.
-- `utms_dia.json`: origem, mídia, campanha, canal, receita e pedidos.
-- `estoque.json`: posição mockada de estoque por SKU.
-- `eventos_manuais.json`: campanhas, lançamentos, ações comerciais e observações criadas manualmente.
-- `consolidado.json`: junção dos arquivos anteriores para inspeção rápida.
+- `kpis_dia.json`: snapshot D-1 de receita, pedidos, ticket médio, sessões, conversão, investimento e ROAS.
+- `funil_dia.json`: snapshot D-1 de sessões e etapas do funil.
+- `produtos_dia.json`: snapshot D-1 de produtos destaque e produtos em queda.
+- `campanhas_dia.json`: snapshot D-1 de campanhas pagas por plataforma.
+- `utms_dia.json`: snapshot D-1 de origem, mídia, campanha, canal, receita e pedidos.
+- `estoque.json`: snapshot de posição de estoque por SKU.
+- `eventos_manuais.json`: exportacao versionada dos eventos criados na Google Sheet.
+- `manifest.json`: auditoria da ultima carga D-1, com periodo, modo, arquivos, linhas e bytes processados.
+- `consolidado.json`: juncao local dos arquivos anteriores para inspecao rapida; em Vercel, pode ficar apenas em memoria.
 
 ## Queries futuras
 
-Os rascunhos SQL ficam em `queries/`. No futuro, eles serão usados para substituir os dados mockados por consultas BigQuery.
+Os SQLs de referencia ficam em `queries/`. O Apps Script hoje possui as consultas operacionais dentro de `apps_script/bigquery_bridge/Code.gs`, e o exportador Python usa os arquivos em `queries/` como alternativa tecnica para testes, backfills e manutencao.
 
 ## Credencial BigQuery
 
-Quando a integração for ativada, a credencial pode ficar em `credentials/`, por exemplo:
+O fluxo principal do MVP nao usa credencial BigQuery dentro do Vercel. O Apps Script consulta BigQuery com a conta Google dona do trigger.
+
+Para uso local tecnico ou backfill pelo exportador Python, uma service account pode ficar em `credentials/`, por exemplo:
 
 ```text
 credentials/reise-bigquery-sa.json
 ```
 
-O backend lê esse caminho por `BQ_CREDENTIALS_PATH`. A credencial não é distribuída para colaboradores e não aparece no frontend.
+O backend/exportador local le esse caminho por `BQ_CREDENTIALS_PATH`. A credencial nao e distribuida para colaboradores, nao entra no GitHub e nao aparece no frontend.
