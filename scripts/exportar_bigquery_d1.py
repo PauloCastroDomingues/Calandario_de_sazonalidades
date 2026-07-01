@@ -41,6 +41,10 @@ EXPORTS = {
 
 def main() -> None:
     args = parse_args()
+    if not bq_export_enabled():
+        print("BigQuery pausado por BQ_EXPORT_ENABLED=0. Nenhuma query foi executada.")
+        return
+
     cutoff = parse_date_arg(args.end_date) or (date.today() - timedelta(days=1))
     start = parse_date_arg(args.start_date) or (cutoff - timedelta(days=args.lookback_days))
     if start > cutoff:
@@ -111,6 +115,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-bytes-billed", type=int, default=None)
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
+
+
+def bq_export_enabled() -> bool:
+    value = os.getenv("BQ_EXPORT_ENABLED", "1").strip().lower()
+    return value not in {"0", "false", "nao", "não", "off"}
 
 
 def resolve_credentials_path(value: str | None) -> Path:

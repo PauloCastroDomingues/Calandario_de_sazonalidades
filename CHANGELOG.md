@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.8 - 2026-07-01
+
+- Adicionado disjuntor `BQ_EXPORT_ENABLED` para ligar/desligar rapidamente consultas BigQuery no Apps Script.
+- Criadas funcoes `pausarBigQuery`, `ativarBigQuery` e `statusBigQuery` no bridge Apps Script.
+- Quando BigQuery esta pausado, `atualizarDadosD1` pula `BigQuery.Jobs.query` e preserva o ultimo snapshot analitico publicado.
+- O exportador Python local tambem respeita `BQ_EXPORT_ENABLED=0`.
+- Documentado o fluxo de reducao de custo enquanto o MVP ainda nao estiver aprovado.
+
 ## 0.4.7 - 2026-07-01
 
 - Otimizado salvamento, edicao e exclusao de eventos manuais para nao esperar commit no GitHub a cada interacao.

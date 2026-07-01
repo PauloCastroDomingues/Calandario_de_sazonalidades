@@ -136,6 +136,14 @@ apps_script/bigquery_bridge/README.md
 
 Use `testarDadosD1` para estimar bytes sem publicar e `atualizarDadosD1` para atualizar os JSONs no GitHub.
 
+Para pausar custo de BigQuery enquanto o projeto ainda nao estiver aprovado, use o disjuntor do Apps Script:
+
+```text
+BQ_EXPORT_ENABLED=0
+```
+
+Ou rode a funcao `pausarBigQuery` no Apps Script. Nesse modo, `atualizarDadosD1` nao executa `BigQuery.Jobs.query`; os JSONs analiticos ficam no ultimo snapshot publicado e os eventos manuais continuam funcionando via Google Sheet. Para voltar, use `BQ_EXPORT_ENABLED=1` ou rode `ativarBigQuery`.
+
 ### Exportador Python
 
 O exportador Python continua disponível como alternativa técnica local, útil para testes, backfills e manutenção. O fluxo operacional diário do MVP é o Apps Script.
@@ -153,9 +161,12 @@ Variáveis usadas pelo exportador:
 BQ_PROJECT_ID=reise-ssot
 BQ_CREDENTIALS_PATH=credentials/reise-bigquery-sa.json
 BQ_MAX_BYTES_BILLED=1073741824
+BQ_EXPORT_ENABLED=1
 ```
 
 O `--dry-run` estima bytes processados sem alterar os JSONs. A execução real grava os arquivos em `data/` e atualiza `data/manifest.json`.
+
+Se `BQ_EXPORT_ENABLED=0`, o exportador local encerra sem executar queries.
 
 ### Metas comerciais
 
@@ -377,6 +388,7 @@ No Apps Script, as variaveis ficam em `Configurações do projeto > Propriedades
 
 ```text
 BQ_PROJECT_ID=reise-ssot
+BQ_EXPORT_ENABLED=1
 BQ_MAX_BYTES_BILLED=3221225472
 LOOKBACK_DAYS=760
 GITHUB_OWNER=PauloCastroDomingues
@@ -387,6 +399,19 @@ EVENTS_SPREADSHEET_ID=<id_da_planilha_de_eventos>
 ```
 
 Nao coloque token no codigo, no README, no frontend ou no Vercel se ele for usado apenas pelo Apps Script. O token do GitHub fica somente nas propriedades do Apps Script.
+
+Para reduzir custo, altere rapidamente `BQ_EXPORT_ENABLED`:
+
+- `0`: pausa consultas BigQuery no Apps Script.
+- `1`: reativa consultas BigQuery no Apps Script.
+
+Funcoes auxiliares no Apps Script:
+
+```text
+pausarBigQuery
+ativarBigQuery
+statusBigQuery
+```
 
 Quando `EVENTS_STORAGE=apps_script`, o backend faz proxy para o Apps Script, que grava na Google Sheet e tambem pode exportar `data/eventos_manuais.json` para o GitHub. Quando `EVENTS_STORAGE=bigquery`, a interface continua apontando conceitualmente para `app_calendar.manual_events`, mas a escrita real em BigQuery segue fora do MVP de custo zero.
 

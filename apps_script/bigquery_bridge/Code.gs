@@ -3,6 +3,7 @@
 const TZ = "America/Sao_Paulo";
 const DEFAULT_LOOKBACK_DAYS = 760;
 const DEFAULT_MAX_BYTES_BILLED = "1073741824";
+const DEFAULT_BQ_EXPORT_ENABLED = "1";
 const MANUAL_EVENTS_OUTPUT_PATH = "data/eventos_manuais.json";
 const EVENTS_SHEET_NAME = "eventos_manuais";
 const EVENTS_HEADER = [
@@ -220,6 +221,30 @@ function testarDadosD1() {
   return executarExportacaoD1_({ dryRun: true });
 }
 
+function pausarBigQuery() {
+  PropertiesService.getScriptProperties().setProperty("BQ_EXPORT_ENABLED", "0");
+  console.log("BigQuery pausado. atualizarDadosD1 nao fara consultas BQ enquanto BQ_EXPORT_ENABLED=0.");
+  return statusBigQuery();
+}
+
+function ativarBigQuery() {
+  PropertiesService.getScriptProperties().setProperty("BQ_EXPORT_ENABLED", "1");
+  console.log("BigQuery ativado. atualizarDadosD1 voltara a consultar BQ enquanto BQ_EXPORT_ENABLED=1.");
+  return statusBigQuery();
+}
+
+function statusBigQuery() {
+  const config = getConfig_();
+  const status = {
+    bq_export_enabled: config.bqExportEnabled,
+    bq_project_id: config.bqProjectId,
+    max_bytes_billed: Number(config.maxBytesBilled),
+    lookback_days: config.lookbackDays,
+  };
+  console.log(JSON.stringify(status, null, 2));
+  return status;
+}
+
 function instalarBaseEventosManuais() {
   const sheet = getManualEventsSheet_();
   console.log(`Base pronta: ${sheet.getParent().getUrl()} / aba ${EVENTS_SHEET_NAME}`);
@@ -256,24 +281,39 @@ function executarExportacaoD1_(options) {
     start_date: startDate,
     end_date: endDate,
     dry_run: dryRun,
+    bq_export_enabled: config.bqExportEnabled,
     max_bytes_billed: Number(config.maxBytesBilled),
     files: {},
   };
 
-  EXPORTS.forEach((item) => {
-    const result = runBigQuery_(config.bqProjectId, item, startDate, endDate, config.maxBytesBilled, dryRun);
-    const fileName = item.outputPath.split("/").pop();
-    manifest.files[fileName] = {
-      rows: result.rows.length,
-      bytes_processed: result.bytesProcessed,
-      location: item.location,
-      updated: !dryRun,
-    };
-    if (!dryRun) {
-      payloads[item.outputPath] = toPrettyJson_(result.rows);
-    }
-    console.log(`${item.name} (${item.location}): ${result.rows.length} linha(s), ${result.bytesProcessed} bytes`);
-  });
+  if (config.bqExportEnabled) {
+    EXPORTS.forEach((item) => {
+      const result = runBigQuery_(config.bqProjectId, item, startDate, endDate, config.maxBytesBilled, dryRun);
+      const fileName = item.outputPath.split("/").pop();
+      manifest.files[fileName] = {
+        rows: result.rows.length,
+        bytes_processed: result.bytesProcessed,
+        location: item.location,
+        updated: !dryRun,
+      };
+      if (!dryRun) {
+        payloads[item.outputPath] = toPrettyJson_(result.rows);
+      }
+      console.log(`${item.name} (${item.location}): ${result.rows.length} linha(s), ${result.bytesProcessed} bytes`);
+    });
+  } else {
+    EXPORTS.forEach((item) => {
+      const fileName = item.outputPath.split("/").pop();
+      manifest.files[fileName] = {
+        rows: 0,
+        bytes_processed: 0,
+        location: item.location,
+        updated: false,
+        skipped: true,
+      };
+    });
+    console.log("BigQuery pausado por BQ_EXPORT_ENABLED=0. Nenhuma query BQ foi executada.");
+  }
 
   const manualEvents = getManualEventsForExport_();
   manifest.files["eventos_manuais.json"] = {
@@ -296,8 +336,16 @@ function executarExportacaoD1_(options) {
     return manifest;
   }
 
-  payloads["data/manifest.json"] = toPrettyJson_(manifest);
-  const message = `Update D-1 commercial data (${endDate})`;
+  if (config.bqExportEnabled) {
+    payloads["data/manifest.json"] = toPrettyJson_(manifest);
+  }
+  if (Object.keys(payloads).length === 0) {
+    console.log("Nenhum arquivo para enviar ao GitHub. BigQuery pausado e eventos manuais nao configurados.");
+    return manifest;
+  }
+  const message = config.bqExportEnabled
+    ? `Update D-1 commercial data (${endDate})`
+    : `Update manual events (BQ paused ${endDate})`;
   const commit = commitFilesToGithub_(config, payloads, message);
   console.log(`Commit criado: ${commit.html_url || commit.sha}`);
   return manifest;
@@ -743,11 +791,16 @@ function getConfig_() {
     githubRepo: props.GITHUB_REPO,
     githubBranch: props.GITHUB_BRANCH,
     githubToken: props.GITHUB_TOKEN,
+    bqExportEnabled: parseBooleanConfig_(props.BQ_EXPORT_ENABLED || DEFAULT_BQ_EXPORT_ENABLED),
     lookbackDays: Number(props.LOOKBACK_DAYS || DEFAULT_LOOKBACK_DAYS),
     maxBytesBilled: props.BQ_MAX_BYTES_BILLED || DEFAULT_MAX_BYTES_BILLED,
     startDate: props.START_DATE || "",
     endDate: props.END_DATE || "",
   };
+}
+
+function parseBooleanConfig_(value) {
+  return !["0", "false", "nao", "não", "off"].includes(String(value || "").trim().toLowerCase());
 }
 
 function getYesterdayBrt_() {
