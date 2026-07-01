@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "event_id": "manual_411a976a76504859",
+    "data_inicio": "2026-07-16",
+    "data_fim": "2026-07-16",
+    "titulo": "TESTE TECNICO CODEX LIST",
+    "tipo": "Campanha",
+    "categoria": "diagnostico",
+    "produto_relacionado": "",
+    "campanha_relacionada": "",
+    "prioridade": "Baixa",
+    "responsavel": "Codex",
+    "observacao": "Teste temporario de listagem via API",
+    "status": "Ativo",
+    "created_by": "Codex",
+    "created_at": "2026-07-01T13:16:41.537Z",
+    "updated_by": "Codex",
+    "updated_at": "2026-07-01T13:16:41.537Z",
+    "deleted_at": "",
+    "id": "manual_411a976a76504859"
+  }
+]
