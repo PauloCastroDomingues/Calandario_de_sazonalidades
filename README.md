@@ -227,7 +227,18 @@ Os dados estao confiaveis o suficiente para decisao?
 
 ### Validacao contra BigQuery
 
-Antes de apresentar o MVP como base confiavel, valide os snapshots contra BigQuery com:
+Antes de apresentar o MVP como base confiavel, valide os snapshots contra BigQuery.
+
+Para uma validacao simples e manual, use:
+
+```text
+queries/validacao_manual_bigquery.sql
+docs/VALIDACAO_MANUAL_BIGQUERY.md
+```
+
+Esse fluxo permite rodar as queries no BigQuery e comparar os indicadores com o dashboard no mesmo periodo.
+
+Se quiser uma validacao automatizada local, use:
 
 ```bat
 python scripts\validar_snapshot_bigquery.py --start-date 2026-06-01 --end-date 2026-06-30 --dry-run
@@ -236,7 +247,7 @@ python scripts\validar_snapshot_bigquery.py --start-date 2026-06-01 --end-date 2
 
 O primeiro comando estima bytes. O segundo compara os agregados dos JSONs com BigQuery e gera um relatorio em `docs/validacao/`.
 
-O passo a passo esta em `docs/VALIDACAO_BIGQUERY.md`.
+O passo a passo automatico esta em `docs/VALIDACAO_BIGQUERY.md`.
 
 ### Privacidade dos dados
 

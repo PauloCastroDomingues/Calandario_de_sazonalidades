@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.2 - 2026-07-01
+
+- Adicionada validacao manual BigQuery x dashboard em `queries/validacao_manual_bigquery.sql`.
+- Criado guia `docs/VALIDACAO_MANUAL_BIGQUERY.md` com checklist, regua de aceite e modelo de registro.
+- Atualizado README para priorizar a validacao manual antes da validacao automatizada.
+
 ## 0.5.1 - 2026-07-01
 
 - Adicionado script `scripts/validar_snapshot_bigquery.py` para homologar JSONs versionados contra BigQuery.
