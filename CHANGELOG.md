@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.5 - 2026-07-01
+
+- Adicionado estado de salvamento no formulario de eventos manuais.
+- O botao de salvar agora fica desabilitado e mostra `Salvando...` durante a gravacao.
+- Bloqueados cliques repetidos enquanto a API compartilhada ainda esta processando o evento.
+- Atualizado o cache bust dos assets para `v=0.4.5`.
+
 ## 0.4.4 - 2026-07-01
 
 - Reforcada a persistencia de eventos manuais no frontend, buscando eventos atuais diretamente em `/api/events`.

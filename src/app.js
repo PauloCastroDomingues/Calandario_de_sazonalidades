@@ -113,6 +113,7 @@ const state = {
   apiAvailable: false,
   backendStatus: null,
   isRefreshingNow: false,
+  isSavingManualEvent: false,
   loadedAt: null,
   lastEventApiError: "",
 };
@@ -2371,7 +2372,10 @@ function buildManualEventId(event) {
 
 async function saveManualEventFromForm(event) {
   event.preventDefault();
+  if (state.isSavingManualEvent) return;
   const form = event.currentTarget;
+  setManualFormSaving(true);
+  setManualStatus("Salvando evento...");
   const start = document.getElementById("manualStartDate").value;
   const end = document.getElementById("manualEndDate").value || start;
   const editingId = state.editingManualEventId;
@@ -2392,36 +2396,56 @@ async function saveManualEventFromForm(event) {
     status: document.getElementById("manualStatusField").value,
   };
 
-  const canUseSharedApi = state.apiAvailable || (await ensureSharedEventsApiReady());
-  if (canUseSharedApi) {
-    const saved = await saveManualEventWithApi(manualEvent, editingId);
-    if (saved) {
-      await reloadDataAfterManualEventChange();
-      closeManualFormAfterSave(form, saved);
-      setManualStatus("Evento salvo na base compartilhada.");
-      renderDashboard();
+  try {
+    const canUseSharedApi = state.apiAvailable || (await ensureSharedEventsApiReady());
+    if (canUseSharedApi) {
+      const saved = await saveManualEventWithApi(manualEvent, editingId);
+      if (saved) {
+        await reloadDataAfterManualEventChange();
+        closeManualFormAfterSave(form, saved);
+        setManualStatus("Evento salvo na base compartilhada.");
+        renderDashboard();
+        return;
+      }
+      setManualStatus(
+        `Não foi possível salvar na base compartilhada. O evento não foi gravado. ${state.lastEventApiError || "Recarregue a página e tente novamente."}`
+      );
       return;
     }
-    setManualStatus(
-      `Não foi possível salvar na base compartilhada. O evento não foi gravado. ${state.lastEventApiError || "Recarregue a página e tente novamente."}`
-    );
-    return;
-  }
 
-  state.data.eventosManuais = editingId
-    ? (state.data.eventosManuais || []).map((item) => (item.id === editingId ? manualEvent : item))
-    : mergeManualEvents(state.data.eventosManuais || [], [manualEvent]);
-  state.deletedManualEventIds = (state.deletedManualEventIds || []).filter((id) => id !== manualEvent.id);
-  buildIndexes();
-  const persisted = persistManualEvents();
-  persistDeletedManualEventIds();
-  closeManualFormAfterSave(form, manualEvent);
-  setManualStatus(
-    persisted
-      ? "Evento salvo no navegador. Use Exportar eventos manuais para gerar o JSON."
-      : "Evento salvo nesta sessão. Use Exportar eventos manuais para baixar o JSON."
-  );
-  renderDashboard();
+    state.data.eventosManuais = editingId
+      ? (state.data.eventosManuais || []).map((item) => (item.id === editingId ? manualEvent : item))
+      : mergeManualEvents(state.data.eventosManuais || [], [manualEvent]);
+    state.deletedManualEventIds = (state.deletedManualEventIds || []).filter((id) => id !== manualEvent.id);
+    buildIndexes();
+    const persisted = persistManualEvents();
+    persistDeletedManualEventIds();
+    closeManualFormAfterSave(form, manualEvent);
+    setManualStatus(
+      persisted
+        ? "Evento salvo no navegador. Use Exportar eventos manuais para gerar o JSON."
+        : "Evento salvo nesta sessão. Use Exportar eventos manuais para baixar o JSON."
+    );
+    renderDashboard();
+  } finally {
+    setManualFormSaving(false);
+  }
+}
+
+function setManualFormSaving(isSaving) {
+  state.isSavingManualEvent = isSaving;
+  const form = document.getElementById("manualEventForm");
+  if (!form) return;
+  const submitButton = form.querySelector('button[type="submit"]');
+  const cancelButton = document.getElementById("cancelManualEventButton");
+  if (submitButton) {
+    if (isSaving) submitButton.dataset.previousLabel = submitButton.textContent || "Salvar evento";
+    submitButton.disabled = isSaving;
+    submitButton.textContent = isSaving ? "Salvando..." : submitButton.dataset.previousLabel || "Salvar evento";
+    if (!isSaving) delete submitButton.dataset.previousLabel;
+  }
+  if (cancelButton) cancelButton.disabled = isSaving;
+  form.setAttribute("aria-busy", isSaving ? "true" : "false");
 }
 
 async function saveManualEventWithApi(manualEvent, editingId) {
